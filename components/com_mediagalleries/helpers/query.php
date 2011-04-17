@@ -1,0 +1,200 @@
+<?php
+/**
+ * @version		$Id: query.php 17726 2010-06-17 14:39:49Z 3dentech $
+ * @package		Joomla.Site
+ * @subpackage	com_content
+ * @copyright	Copyright (C) 2005 - 2010 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+// no direct access
+defined('_JEXEC') or die;
+
+/**
+ * Content Component Query Helper
+ *
+ * @static
+ * @package		Joomla.Site
+ * @subpackage	com_content
+ * @since 1.5
+ */
+class MediagalleriesHelperQuery
+{
+	function orderbyPrimary($orderby)
+	{
+		switch ($orderby)
+		{
+			case 'alpha' :
+				$orderby = 'c.path, ';
+				break;
+
+			case 'ralpha' :
+				$orderby = 'c.path DESC, ';
+				break;
+
+			case 'order' :
+				$orderby = 'c.lft, ';
+				break;
+
+			default :
+				$orderby = '';
+				break;
+		}
+
+		return $orderby;
+	}
+
+	function orderbySecondary($orderby, $orderDate = 'created')
+	{
+		$queryDate = self::getQueryDate($orderDate);
+
+		switch ($orderby)
+		{
+			case 'date' :
+				$orderby = $queryDate;
+				break;
+
+			case 'rdate' :
+				$orderby = $queryDate . ' DESC ';
+				break;
+
+			case 'alpha' :
+				$orderby = 'a.title';
+				break;
+
+			case 'ralpha' :
+				$orderby = 'a.title DESC';
+				break;
+
+			case 'hits' :
+				$orderby = 'a.hits DESC';
+				break;
+
+			case 'rhits' :
+				$orderby = 'a.hits';
+				break;
+
+			case 'order' :
+				$orderby = 'a.ordering';
+				break;
+
+			case 'author' :
+				$orderby = 'author';
+				break;
+
+			case 'rauthor' :
+				$orderby = 'author DESC';
+				break;
+
+			case 'front' :
+				$orderby = 'fp.ordering';
+				break;
+
+			default :
+				$orderby = 'a.ordering';
+				break;
+		}
+
+		return $orderby;
+	}
+
+	function getQueryDate($orderDate) {
+
+		switch ($orderDate)
+		{
+			case 'modified' :
+				$queryDate = ' CASE WHEN a.modified = 0 THEN a.created ELSE a.modified END';
+				break;
+
+			// use created if publish_up is not set
+			case 'published' :
+				$queryDate = ' CASE WHEN a.publish_up = 0 THEN a.created ELSE a.publish_up END ';
+				break;
+
+			case 'created' :
+			default :
+				$queryDate = ' a.created ';
+				break;
+		}
+		return $queryDate;
+	}
+
+	function buildVotingQuery($params=null)
+	{
+		if (!$params) {
+			$params = &JComponentHelper::getParams('com_mediagalleries');
+		}
+		$voting = $params->get('show_vote');
+
+		if ($voting) {
+			// calculate voting count
+			$select = '';
+			$join = '';
+		} else {
+			$select = '';
+			$join = '';
+		}
+
+		$results = array ('select' => $select, 'join' => $join);
+
+		return $results;
+	}
+
+	/**
+	 * Method to order the intro articles array for ordering
+	 * down the columns instead of across.
+	 * The layout always lays the introtext articles out across columns.
+	 * Array is reordered so that, when articles are displayed in index order
+	 * across columns in the layout, the result is that the
+	 * desired article ordering is achieved down the columns.
+	 *
+	 * @access	public
+	 * @param	array	$articles	Array of intro text articles
+	 * @param	integer	$numColumns	Number of columns in the layout
+	 * @return	array	Reordered array to achieve desired ordering down columns
+	 * @since	1.6
+	 */
+	function orderDownColumns(&$medias, $numColumns = 1)
+	{
+		$count = count($media);
+		// just return the same array if there is nothing to change
+		if ($numColumns == 1 || !is_array($medias) || $count  <= $numColumns)
+		{
+			$return = $medias;
+		}
+		// we need to re-order the intro articles array
+		else
+		{
+			// we need to preserve the original array keys
+			$keys = array_keys($medias);
+		
+			// layout the articles in column order
+			$maxRows = ceil($count / $numColumns);
+			$index = array();
+			$i = 0;
+			for ($col = 1; ($col <= $numColumns) && ($i < $count); $col++) {
+				for ($row = 1; ($row <= $maxRows) && ($i < $count); $row++) {
+					// ensure that first row is always filled
+					if ($numColumns - $col >= $count - $i) {
+						$row = 1;
+						$col++;
+					}
+					$index[$row][$col] = $keys[$i];
+					$i++;
+				}
+			}
+			
+			// now read the $index back row by row to get articles in right row/col
+			// so that they will actually be ordered down the columns
+			$return = array();
+			$i = 0;
+			for ($row = 1; ($row <= $maxRows) && ($i < $count); $row++) {
+				for ($col = 1; ($col <= $numColumns) && ($i < $count); $col++) {
+					$return[$keys[$i]] = $articles[$index[$row][$col]];
+					$i++;
+				}
+			}
+		}
+		return $return;
+	}
+}

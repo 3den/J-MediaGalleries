@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_MEDIAGALLERIES_GALLERIES_VIEW_DEFAULT_TITLE">
+		<message>
+			<![CDATA[COM_MEDIAGALLERIES_GALLERIES_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+		>
+			<field name="id" type="category"
+				description="JGLOBAL_CHOOSE_CATEGORY_DESC"
+				extension="com_mediagalleries"
+				label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
+				show_root="true"
+				required="true"
+			/>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+<fields name="params">
+<fieldset name="basic" label="JGLOBAL_CATEGORY_OPTIONS">
+
+			<field name="show_base_description" type="radio"
+				default="1"
+				label="JGLOBAL_FIELD_SHOW_BASE_DESCRIPTION_LABEL"
+				description="JGLOBAL_FIELD_SHOW_BASE_DESCRIPTION_DESC"
+			>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="categories_description" type="textarea"
+				description="JGLOBAL_FIELD_CATEGORIES_DESC_DESC"
+				label="JGLOBAL_FIELD_CATEGORIES_DESC_LABEL"
+				cols="25"
+				rows="5"
+			/>
+			<field name="maxLevel" type="list"
+				default="-1"
+				description="JGLOBAL_MAXIMUM_CATEGORY_LEVELS_DESC"
+				label="JGLOBAL_MAXIMUM_CATEGORY_LEVELS_LABEL"
+			>
+				<option value="-1">JALL</option>
+				<option value="1">J1</option>
+				<option value="2">J2</option>
+				<option value="3">J3</option>
+				<option value="4">J4</option>
+				<option value="5">J5</option>
+				
+			</field>
+
+			<field name="show_empty_categories" type="radio"
+				default="0"
+				label="JGLOBAL_SHOW_EMPTY_CATEGORIES_LABEL"
+				description="JGLOBAL_SHOW_EMPTY_CATEGORIES_DESC"
+			>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			
+			<field name="show_subcat_desc" type="radio"
+			default="0"
+			label="COM_WEBLINKS_FIELD_CONFIG_SUBCAT_LABEL"
+			description="COM_WEBLINKS_FIELD_CONFIG_SUBCAT_DESC"			
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+			
+			<field name="show_cat_num_links" type="radio"
+			default="0"
+			description="COM_WEBLINKS_FIELD_CONFIG_SHOWNUMBERS_DESC"
+			label="COM_WEBLINKS_FIELD_CONFIG_SHOWNUMBERS_LABEL"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+			</field>	
+				
+	</fieldset>
+		
+</fields>
+</metadata>

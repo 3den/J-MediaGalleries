@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Channel- Gallery">
+		<message>
+			<![CDATA[COM_MEDIAGALLERIES_GALLERY_VIEW_GALLERY_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+		>
+
+			<field name="id" type="user"
+				description="JGLOBAL_CHOOSE_CATEGORY_DESC"
+				label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
+				default="42"
+				required="true"	/>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<fieldset name="advanced" label="Advanced">
+			<field name="show_title" 
+					type="list" 
+					default="" 
+					label="Show Title" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+			</fieldset>
+		
+
+		<fieldset name="integration">
+
+			<field name="show_feed_link" type="list"
+				description="JGLOBAL_SHOW_FEED_LINK_DESC"
+				label="JGLOBAL_SHOW_FEED_LINK_LABEL"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="feed_summary" type="list"
+				description="JGLOBAL_FEED_SUMMARY_DESC"
+				label="JGLOBAL_FEED_SUMMARY_LABEL"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JGLOBAL_INTRO_TEXT</option>
+				<option value="1">JGLOBAL_FULL_TEXT</option>
+			</field>
+		</fieldset>
+</fields>
+
+
+</metadata>

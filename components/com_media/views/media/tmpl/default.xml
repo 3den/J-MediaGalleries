@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_MEDIAGALLERIES_MEDIA_VIEW_DEFAULT_TITLE">
+		<message><![CDATA[
+			COM_MEDIAGALLERIES_MEDIA_VIEW_DEFAULT_DESC
+		]]></message>
+	</layout>
+	
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_mediagalleries/models/fields">
+
+			<field name="id" type="modal_media"
+				label="JSELECT"
+				required="true"
+				description="COM_MEDIAGALLERIES_SELECT_MEDIA"
+			/>
+		</fieldset>
+	</fields>
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	<!-- In the advanced fieldset make all the default values set to "default" it is put to yes for testing only -->
+			<fieldset name="advanced" label="Advanced">
+			<field name="show_cat" 
+					type="list" 
+					default="" 
+					label="Show Category Name" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>										
+				</field>
+				<field name="show_title" 
+					type="list" 
+					default="" 
+					label="Show Title" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+			
+				
+				
+				<field name="show_url" 
+					type="list" 
+					default="" 
+					label="Show URL" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_desc" 
+					type="list" 
+					default="yes" 
+					label="Show Description" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_hits" 
+					type="list" 
+					default="yes" 
+					label="Show Hits" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_creation" 
+					type="list" 
+					default="yes" 
+					label="Show Creation time" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_author" 
+					type="list" 
+					default="" 
+					label="Show Author" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_modified" 
+					type="list" 
+					default="" 
+					label="Show Last Modified" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_modified_by" 
+					type="list" 
+					default="" 
+					label="Show Modified By" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>					
+				</field>				
+			</fieldset>
+
+		</fields>
+	
+</metadata>

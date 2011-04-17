@@ -1,0 +1,79 @@
+K 16
+bugtraq:logregex
+V 6
+#(\d+)
+K 11
+bugtraq:url
+V 95
+http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&tracker_item_id=%BUGID%
+K 14
+subclipse:tags
+V 1209
+12573,eddieajau,/development/branches/eddieajau,branch
+12835,acl2,/development/branches/acl2,branch
+12886,trunk,/development/trunk,branch
+13276,datetime,/development/branches/datetime,branch
+14134,v9,../branches/front_end_fixes/v9,branch
+14245,v10,branches/front_end_fixes/v10,branch
+14403,v11,/development/branches/front_end_fixes/v11,branch
+14440,complusoft,/development/branches/complusoft,branch
+14867,acc_admin_template,/branches/acc_admin_template,branch
+14891,v12,/branches/front_end_fixes/v12,branch
+14898,beez,/branches/beez,branch
+15009,com_content,/branches/front_end_fixes/com_content,branch
+15017,sample_data,/branches/front_end_fixes/sample_data,branch
+15053,fullestop,/branches/fullestop,branch
+15598,jean_marie,/development/branches/jean_marie,branch
+15764,content_0401,/development/branches/front_end_fixes/content_0401,branch
+15889,rocket,/development/branches/rocket,branch
+15956,mcsmom,/development/branches/mcsmom,branch
+16030,content_0412,/development/branches/front_end_fixes/content_0412,branch
+16279,content_0421,/development/branches/front_end_fixes/content_0421,branch
+16435,chrisdavenport,/development/branches/chrisdavenport,branch
+17063,beez20,/development/branches/beez20,branch
+K 10
+svn:ignore
+V 156
+configuration.php
+.project
+.amateras
+text.html
+.settings
+unittest
+.buildpath
+plg_media.zip
+.htaccess
+php.ini
+.projectOptions
+plg_media
+.cache
+bin
+Thumbs.db
+
+K 13
+svn:mergeinfo
+V 1240
+/development/branches/beez20:17064-17081
+/development/branches/chdemko:13577-13712
+/development/branches/chrisdavenport:16436-16835
+/development/branches/comp_refactoring:15972-15979
+/development/branches/complusoft:14587-15260
+/development/branches/front_end_fixes/com_content:15010-15242,15246-15422,15429-15609,15635-15727
+/development/branches/front_end_fixes/content_0412:16031-16246
+/development/branches/front_end_fixes/sample_data:15152-15390,15394-15632,15637-15946
+/development/branches/front_end_fixes/v10:14246-14392
+/development/branches/front_end_fixes/v11:14404-14890
+/development/branches/front_end_fixes/v12:14892-15135
+/development/branches/front_end_fixes/v8:14037-14132
+/development/branches/front_end_fixes/v9:14135-14244
+/development/branches/front_end_fixes_5/trunk:13729-13794
+/development/branches/front_end_fixes_6/trunk:13797-13898
+/development/branches/front_end_fixes_7/trunk:13903-14032
+/development/branches/jean_marie/trunk:13875-13891
+/development/branches/jform:14598-15575
+/development/branches/jform-artyom:16647-16824
+/development/branches/jstring_16:13665
+/development/branches/mcsmom:15957-16184,16221-16358,16415-16527
+/development/branches/ut_exp:14790-14820
+/development/branches/ut_fix:15985-16002
+END

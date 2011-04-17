@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment
+END
+JURITest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JURITest.php
+END
+JRequestGetVarTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JRequestGetVarTest.php
+END
+JURI-mock-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JURI-mock-general.php
+END
+JBrowserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JBrowserTest.php
+END
+JFilterInput-mock-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JFilterInput-mock-general.php
+END
+JRequestTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JRequestTest.php
+END
+JRequest-helper-dataset.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JRequest-helper-dataset.php
+END
+JRequestGetmethodTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JRequestGetmethodTest.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/index.html
+END
+JRequestCleanTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JRequestCleanTest.php
+END
+JResponseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/environment/JResponseTest.php
+END

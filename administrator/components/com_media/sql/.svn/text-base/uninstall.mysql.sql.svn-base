@@ -1,0 +1,9 @@
+-- --------------------------------------------------------------------
+-- DROP TABLE 
+--	`#__mediagalleries`, 
+--	`#__mediagalleries_channels`, 
+-- 	`#__mediagalleries_channels_friends`, 
+--	`#__mediagalleries_channels_media`, 
+--	`#__mediagalleries_channels_media_type`, 
+--	`#__mediagalleries_channels_users`, 
+-- --------------------------------------------------------------------

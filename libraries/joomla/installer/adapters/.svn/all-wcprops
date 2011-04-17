@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/libraries/joomla/installer/adapters
+END
+package.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/installer/adapters/package.php
+END
+language.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/installer/adapters/language.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/libraries/joomla/installer/adapters/template.php
+END
+library.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/installer/adapters/library.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/libraries/joomla/installer/adapters/file.php
+END
+module.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/libraries/joomla/installer/adapters/module.php
+END
+component.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/libraries/joomla/installer/adapters/component.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/libraries/joomla/installer/adapters/index.html
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/installer/adapters/plugin.php
+END

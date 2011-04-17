@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/administrator/manifests/libraries
+END
+joomla.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/manifests/libraries/joomla.xml
+END
+phpmailer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/manifests/libraries/phpmailer.xml
+END
+simplepie.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/manifests/libraries/simplepie.xml
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/manifests/libraries/index.html
+END
+phputf8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/administrator/manifests/libraries/phputf8.xml
+END

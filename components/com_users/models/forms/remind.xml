@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: remind.xml 17726 2010-06-17 14:39:49Z 3dentech $ -->
+<form>
+	<fieldset name="default" label="COM_USERS_REMIND_DEFAULT_LABEL">		<field name="email" type="text"
+			class="validate-email"
+			description="COM_USERS_FIELD_REMIND_EMAIL_DESC"
+			label="COM_USERS_FIELD_REMIND_EMAIL_LABEL"
+			required="true"
+			size="30"
+			validate="email"
+		/>
+	</fieldset>
+</form>

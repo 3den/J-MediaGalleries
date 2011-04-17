@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer
+END
+JPackageManifestTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/JPackageManifestTest.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/index.html
+END
+JLibraryManifestTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/JLibraryManifestTest.php
+END
+JExtensionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/JExtensionTest.php
+END
+JInstallerHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/JInstallerHelperTest.php
+END
+JInstallerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/installer/JInstallerTest.php
+END

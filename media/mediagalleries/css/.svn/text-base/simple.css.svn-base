@@ -1,0 +1,153 @@
+
+/**
+ * mediagalleries Base
+ */
+#mediagalleries{
+	
+}
+
+/**
+ * Player
+ */
+#mediagalleries #player{
+	width: 500px;
+	min-height: 150px;
+	background: #000000;
+	position: relative;
+}
+#mediagalleries #player .media{
+	width: 500px;
+	height: 350px;
+}
+#mediagalleries #player img.media{
+	height:auto;
+	min-height: 150px;
+}
+/* video code */
+#mediagalleries  #embed{
+	
+}
+
+/* rouded corners */
+#mediagalleries #player div{
+	
+}
+#mediagalleries #player div div{
+	
+}
+#mediagalleries #player div div div{
+	
+}
+#mediagalleries #player div div div div{
+	
+}
+
+/**
+ * Media Info
+ */
+#mediagalleries .details{
+	
+}
+
+#mediagalleries ul.mediadetails{
+	list-style:none;
+	list-style-type:none;
+}
+#mediagalleries ul.mediadetails li{
+	list-style:none;
+	list-style-type:none;	
+	display: inline;
+}
+
+#mediagalleries ul.details{
+	list-style:none;
+	list-style-type:none;
+}
+#mediagalleries ul.details li{
+	list-style:none;
+	list-style-type:none;	
+	display: inline;
+}
+
+/**
+ * Thumb
+ */
+div.mediathumb{
+	width: 110px;
+	min-height:110px; 
+	padding: 4px;	
+	text-align:center;
+}
+div.mediathumb a{
+
+}
+ div.mediathumb a:hover{
+
+}
+div.mediathumb a img {
+	max-width: 100px;
+	max-height:100px; 
+}
+div.mediathumb a:hover img {
+
+}
+
+/**
+ * Lists
+ */
+/** compact */
+div.compact{
+	display: inline;
+}
+
+#mediagalleries .list{
+	
+}
+#mediagalleries .list .related{
+	
+}
+#mediagalleries .mediaslist{
+	float: right;
+	width: 110px;
+	text-align:center;
+	border: 1px;
+}
+#mediagalleries .mediaslist .media{
+	width: 100px;
+	height: 80px;
+	margin: 10px;	
+}
+
+/**
+ *  Form
+ */
+#mediagalleries .adminform label{
+	font-weight: bold;
+	display: block;
+	text-align: right;
+}
+
+
+#mediagalleries .adminform .inputboxfull{
+	width:100%;
+}
+#mediagalleries .buttons{
+	text-align:right;
+}
+#mediagalleries .buttons a{
+	text-decoration:none;
+}
+
+
+/* Fieldset 
+
+
+/* Table */
+#mediagalleries .adminform table{
+		width:90%;
+}
+#mediagalleries .adminform table.input{
+		border: #cccccc 2px dashed;
+		width: 100%;
+		margin: 5px;
+}

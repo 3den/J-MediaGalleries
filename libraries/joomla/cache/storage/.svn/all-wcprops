@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/cache/storage
+END
+eaccelerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/libraries/joomla/cache/storage/eaccelerator.php
+END
+wincache.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/cache/storage/wincache.php
+END
+xcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/libraries/joomla/cache/storage/xcache.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/cache/storage/file.php
+END
+memcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/cache/storage/memcache.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/libraries/joomla/cache/storage/index.html
+END
+cachelite.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/libraries/joomla/cache/storage/cachelite.php
+END
+apc.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/joomla/!svn/ver/18338/development/branches/mediagalleries/libraries/joomla/cache/storage/apc.php
+END

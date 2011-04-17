@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/stubs
+END
+xmlFile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/stubs/xmlFile.xml
+END
+jos_usergroups.csv
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/stubs/jos_usergroups.csv
+END
+jos_users.csv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/stubs/jos_users.csv
+END
+jos_assets.csv
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/stubs/jos_assets.csv
+END
+jos_menu.csv
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/stubs/jos_menu.csv
+END
+jos_categories.csv
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/stubs/jos_categories.csv
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/joomla/!svn/ver/20992/development/branches/mediagalleries/tests/unit/stubs/index.html
+END
+jos_user_usergroup_map.csv
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/stubs/jos_user_usergroup_map.csv
+END
+empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/stubs/empty.xml
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/stubs/test.xml
+END

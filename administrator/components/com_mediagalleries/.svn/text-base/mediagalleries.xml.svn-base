@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0">
+	<name>Mediagalleries</name>
+	<creationDate>June 2010</creationDate>
+	<author>Aman Gautam, Marcelo Eden</author>
+	<copyright>(C) 2010 Joomla. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0</version>
+	<description>COM_MEDIAGALLERIES_XML_DESC</description>
+
+	<install> <!-- Runs on install -->
+	    <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+	    </sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+	    <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+	    </sql>
+	</uninstall>
+	<update> <!-- Runs on update -->
+	    <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.sql</file>
+	    </sql>
+	</update>
+	
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<folder>helpers</folder>
+		<folder>models</folder>				
+		<folder>views</folder>
+	</files>
+	
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_mediagalleries.ini</language>
+		<language tag="pt-BR">language/pt-BR.com_mediagalleries.ini</language>
+	</languages>
+    
+    <media destination="mediagalleries" folder="media">
+        <filename>index.html</filename>
+        <folder>images</folder>
+        <folder>thumbs</folder>
+        <folder>css</folder>
+    </media>
+
+	<administration>
+		    <menu link="index.php?option=com_mediagalleries">COM_MEDIAGALLERIES</menu> 
+		    <submenu>
+		           	<menu link="option=com_mediagalleries" view="galleries" img="class:media">COM_MEDIAGALLERIES_MEDIAS</menu>
+					<menu link="option=com_categories&amp;extension=com_mediagalleries" img="class:category">COM_MEDIAGALLERIES_CATEGORIES</menu>
+					<!--<menu img="" link="option=com_comments&amp;extension=com_mediagalleries">Comments</menu> Not for now -->
+		    </submenu>  
+		    
+		    <!-- Admin's Files -->
+		    <files folder="admin">
+				<filename component="mediagalleries">mediagalleries.php</filename>
+				<filename>controller.php</filename>
+				<filename>config.xml</filename>
+				<filename>access.xml</filename>
+				<filename>index.html</filename>	
+				<folder>help</folder>
+				<folder>tables</folder>
+				<folder>models</folder>
+				<folder>views</folder>
+				<!-- Easier -->
+				<folder>sql</folder>
+			</files>
+	    	<languages folder="admin">
+				<language tag="en-GB">language/en-GB.com_mediagalleries.ini</language>
+				<language tag="en-GB">language/en-GB.com_mediagalleries.sys.ini</language><!-- needed -->
+			</languages>
+	</administration>
+</extension>

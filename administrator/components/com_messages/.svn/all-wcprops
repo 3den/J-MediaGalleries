@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/administrator/components/com_messages
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_messages/config.xml
+END
+messages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_messages/messages.xml
+END
+controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/administrator/components/com_messages/controller.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_messages/index.html
+END
+messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_messages/messages.php
+END

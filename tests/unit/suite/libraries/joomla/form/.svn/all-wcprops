@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form
+END
+inspectors.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/inspectors.php
+END
+JFormTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/JFormTest.php
+END
+JFormFieldTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/JFormFieldTest.php
+END
+example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/example.xml
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/index.html
+END
+JFormRuleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/JFormRuleTest.php
+END
+JFormDataHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/JFormDataHelper.php
+END

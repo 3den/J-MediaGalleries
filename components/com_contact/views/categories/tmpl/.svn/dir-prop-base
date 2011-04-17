@@ -1,0 +1,10 @@
+K 11
+bugtraq:url
+V 95
+http://joomlacode.org/gf/project/joomla/tracker/?action=TrackerItemEdit&tracker_item_id=%BUGID%
+K 16
+bugtraq:logregex
+V 7
+#(\d+)
+
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive
+END
+JArchiveZipTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive/JArchiveZipTest.php
+END
+JArchiveBzip2Test.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive/JArchiveBzip2Test.php
+END
+JArchiveTarTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive/JArchiveTarTest.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive/index.html
+END
+JArchiveGzipTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/filesystem/archive/JArchiveGzipTest.php
+END

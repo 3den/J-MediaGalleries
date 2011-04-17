@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_MEDIAGALLERIES_MEDIA_VIEW_EDIT_TITLE">
+		<message><![CDATA[
+			COM_MEDIAGALLERIES_MEDIA_VIEW_EDIT_DESC
+		]]></message>
+	</layout>
+	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+	<!-- In the advanced fieldset make all the default values set to "default" it is put to yes for testing only -->
+	
+
+	</fields>
+</metadata>

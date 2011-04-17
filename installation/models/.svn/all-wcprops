@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/joomla/!svn/ver/19232/development/branches/mediagalleries/installation/models
+END
+configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/installation/models/configuration.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/joomla/!svn/ver/19232/development/branches/mediagalleries/installation/models/database.php
+END
+filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/installation/models/filesystem.php
+END
+setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/installation/models/setup.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/installation/models/index.html
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/installation/models/migration.php
+END

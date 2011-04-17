@@ -1,0 +1,6 @@
+; $Id: en-GB.MEDIA.ini 17165 2010-05-17 15:59:19Z infograf768 $
+; Joomla! Project
+; Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+; License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
+; Note : All ini files need to be saved as UTF-8 - No BOM
+PLG_CONTENT_MEDIA="Content - Media"

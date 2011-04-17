@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/administrator/components/com_users/models
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/administrator/components/com_users/models/mail.php
+END
+users.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/administrator/components/com_users/models/users.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/administrator/components/com_users/models/user.php
+END
+debuggroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/administrator/components/com_users/models/debuggroup.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_users/models/index.html
+END
+debuguser.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/administrator/components/com_users/models/debuguser.php
+END
+levels.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/19205/development/branches/mediagalleries/administrator/components/com_users/models/levels.php
+END
+group.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/administrator/components/com_users/models/group.php
+END
+groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/administrator/components/com_users/models/groups.php
+END
+level.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/joomla/!svn/ver/17726/development/branches/mediagalleries/administrator/components/com_users/models/level.php
+END

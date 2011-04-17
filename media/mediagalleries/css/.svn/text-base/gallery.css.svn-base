@@ -1,0 +1,16 @@
+.thumbnail
+	{
+		width: 142px;
+		height: 94px;
+		cursor: pointer;
+	}
+
+	#main_image img
+	{
+		width: 500px;
+		height: 300px;
+	}
+	#main_image
+	{
+		height: 300px;
+	}

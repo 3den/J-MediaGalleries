@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user
+END
+JAuthenticationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user/JAuthenticationTest.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user/index.html
+END
+JUserTestGetAuthorisedCategories.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user/JUserTestGetAuthorisedCategories.php
+END
+JUserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user/JUserTest.php
+END
+JUserHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/19024/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/user/JUserHelperTest.php
+END

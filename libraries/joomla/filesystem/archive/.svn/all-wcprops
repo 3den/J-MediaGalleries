@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/filesystem/archive
+END
+gzip.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/filesystem/archive/gzip.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/libraries/joomla/filesystem/archive/index.html
+END
+zip.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/libraries/joomla/filesystem/archive/zip.php
+END
+bzip2.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/filesystem/archive/bzip2.php
+END
+tar.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/libraries/joomla/filesystem/archive/tar.php
+END

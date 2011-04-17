@@ -1,0 +1,129 @@
+/**
+ * @version		$Id: popup-imagelist.css 18338 2010-08-05 21:29:01Z 3dentech $
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+<<<<<<< .working
+ html, body {
+	 margin: 0 !important;
+	 padding: 0 !important;
+	 font-family:  Tahoma, Verdana, sans-serif !important;
+}
+=======
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: Tahoma, Verdana, sans-serif !important;
+}
+>>>>>>> .merge-right.r20990
+
+<<<<<<< .working
+ .item {
+	float: left;
+	border: 1px solid #ccc !important;
+	margin: 3px;
+	position: relative;
+	padding:0 !important;
+=======
+.item {
+	float: left;
+	border: 1px solid #ccc !important;
+	margin: 3px;
+	position: relative;
+	padding: 0 !important;
+}
+>>>>>>> .merge-right.r20990
+
+<<<<<<< .working
+}
+
+.item a {
+=======
+.item a {
+>>>>>>> .merge-right.r20990
+	display: table-cell !important;
+	display: block;
+	width: 80px;
+	height: 90px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+<<<<<<< .working
+	line-height: 90px;
+	background:#fff !important;
+
+=======
+>>>>>>> .merge-right.r20990
+
+	background: #fff !important;
+}
+
+<<<<<<< .working
+.item img {
+	display: inline;
+	margin-top: expression(( 80 - this.height ) / 2);
+	border:0
+}
+=======
+.item img {
+	display: inline;
+	margin-top: expression(( 80 - this.height ) / 2);
+	border: 0;
+}
+>>>>>>> .merge-right.r20990
+
+html>body .item img {
+	margin: auto;
+}
+
+.item span {
+	line-height: 100%;
+	clear: both;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2px 0;
+	background-color: #eee;
+	overflow: hidden;
+<<<<<<< .working
+	font-family:  Tahoma, Verdana, sans-serif !important;
+	font-size:11px
+
+
+=======
+	font-family: Tahoma, Verdana, sans-serif !important;
+	font-size: 11px;
+>>>>>>> .merge-right.r20990
+}
+
+<<<<<<< .working
+.item  a:link span,
+.item a:visited span {
+	background:eee;
+	color:#333
+}
+
+
+.item  a:hover span,
+.item a:active span,
+.item a:active focus {
+	background:eee;
+	color:#095197;
+}=======
+.item  a:link span,
+.item a:visited span {
+	background-color: #eee;
+	color: #333;
+}
+
+.item  a:hover span,
+.item a:active span,
+.item a:active focus {
+	background-color: #eee;
+	color: #095197;
+}>>>>>>> .merge-right.r20990

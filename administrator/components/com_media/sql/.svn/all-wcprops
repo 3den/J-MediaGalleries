@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/joomla/!svn/ver/18549/development/branches/mediagalleries/administrator/components/com_media/sql
+END
+uninstall.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/18549/development/branches/mediagalleries/administrator/components/com_media/sql/uninstall.mysql.sql
+END
+update.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/18549/development/branches/mediagalleries/administrator/components/com_media/sql/update.mysql.sql
+END
+install.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/18549/development/branches/mediagalleries/administrator/components/com_media/sql/install.mysql.sql
+END

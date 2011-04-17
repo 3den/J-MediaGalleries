@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/_data/installer_packages/com_delta
+END
+delta.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/_data/installer_packages/com_delta/delta.xml
+END
+file.script.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/_data/installer_packages/com_delta/file.script.php
+END
+file.install.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/joomla/!svn/ver/20992/development/branches/mediagalleries/tests/_data/installer_packages/com_delta/file.install.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/_data/installer_packages/com_delta/index.html
+END
+file.uninstall.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/joomla/!svn/ver/20993/development/branches/mediagalleries/tests/_data/installer_packages/com_delta/file.uninstall.php
+END

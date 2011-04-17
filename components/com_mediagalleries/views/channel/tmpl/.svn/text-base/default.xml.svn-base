@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Channel-Default">
+		<message>
+			<![CDATA[COM_MEDIAGALLERIES_GALLERY_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+		>
+
+			<field name="id" type="user"
+				description="JGLOBAL_CHOOSE_CATEGORY_DESC"
+				label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
+				default="42"
+				required="true"	/>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="preview_width"
+					type="text"
+					label="Preview Width"
+					description =""
+					default=""
+			/>
+			<field name="preview_height"
+					type="text"
+					label="Preview Height"
+					description =""
+					default=""
+			/>
+			
+		</fieldset>
+		
+		<fieldset name="advanced" label="Advanced">
+			
+				<field name="show_title" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_TITLE_LABEL" 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_TITLE_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+			
+				
+				
+				<field name="show_url" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_URL_LABEL" 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_URL_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_desc" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_DESC_LABEL " 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_DESC_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_hits" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_HITS_LABEL " 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_HITS_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_creation" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_CREATION_TIME_LABEL " 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_CREATION_TIME_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_author" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_AUTHOR_LABEL " 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_AUTHOR_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_modified" 
+					type="list" 
+					default="" 
+					label="COM_MEDIAGALLERIES_FIELD_SHOW_LAST_MODIFIED_LABEL " 
+					description="COM_MEDIAGALLERIES_FIELD_SHOW_LAST_MODIFIED_DESC ">
+						<option value="">JGLOBAL_USE_GLOBAL</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+			</fieldset>
+</fields>
+
+
+</metadata>

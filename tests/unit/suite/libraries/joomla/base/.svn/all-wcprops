@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base
+END
+JTreeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JTreeTest.php
+END
+JAdapterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JAdapterTest.php
+END
+JObservableTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JObservableTest.php
+END
+JAdapterInstanceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JAdapterInstanceTest.php
+END
+JNodeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JNodeTest.php
+END
+JObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/joomla/!svn/ver/18109/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JObjectTest.php
+END
+JObserverTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/JObserverTest.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/joomla/!svn/ver/20994/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/base/index.html
+END

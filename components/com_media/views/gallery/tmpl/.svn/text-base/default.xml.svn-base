@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Default Gallery">
+		<message>
+			<![CDATA[COM_MEDIAGALLERIES_GALLERY_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+		>
+
+			<field name="id" type="user"
+				description="JGLOBAL_CHOOSE_CATEGORY_DESC"
+				label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
+				required="true"	/>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="preview_width"
+					type="text"
+					label="Preview Width"
+					description =""
+					default="512"
+			/>
+			<field name="preview_height"
+					type="text"
+					label="Preview Height"
+					description =""
+					default="384"
+			/>
+			<field name="thumb_width"
+					type="text"
+					label="Thumb Width"
+					description =""
+					default="100"
+			/>
+			<field name="thumb_height"
+					type="text"
+					label="Preview Height"
+					description =""
+					default="75"
+			/>
+			<field name="thumbs_per_row"
+					type="text"
+					label="Thumbs Per Row"
+					description =""
+					default="3"
+			/>
+			
+		</fieldset>
+		
+		<fieldset name="advanced" label="Advanced">
+			
+				<field name="show_title" 
+					type="list" 
+					default="" 
+					label="Show Title" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+			
+				
+				
+				<field name="show_url" 
+					type="list" 
+					default="" 
+					label="Show URL" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_desc" 
+					type="list" 
+					default="" 
+					label="Show Description" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_hits" 
+					type="list" 
+					default="" 
+					label="Show Hits" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_creation" 
+					type="list" 
+					default="" 
+					label="Show Creation time" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_author" 
+					type="list" 
+					default="" 
+					label="Show Author" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_modified" 
+					type="list" 
+					default="" 
+					label="Show Last Modified" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>						
+				</field>
+				
+				<field name="show_modified_by" 
+					type="list" 
+					default="" 
+					label="Show Modified By" 
+					description="Make it multilingual">
+						<option value="">Use Global</option>
+						<option value="1">JYES</option>			
+						<option value="0">JNO</option>					
+				</field>				
+			</fieldset>
+		
+
+		<fieldset name="integration">
+
+			<field name="show_feed_link" type="list"
+				description="JGLOBAL_SHOW_FEED_LINK_DESC"
+				label="JGLOBAL_SHOW_FEED_LINK_LABEL"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="feed_summary" type="list"
+				description="JGLOBAL_FEED_SUMMARY_DESC"
+				label="JGLOBAL_FEED_SUMMARY_LABEL"
+			>
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JGLOBAL_INTRO_TEXT</option>
+				<option value="1">JGLOBAL_FULL_TEXT</option>
+			</field>
+		</fieldset>
+</fields>
+
+
+</metadata>

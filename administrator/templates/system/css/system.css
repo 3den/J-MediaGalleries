@@ -1,0 +1,8 @@
+/**
+ * @version		$Id: system.css 19024 2010-10-02 18:53:34Z 3dentech $
+ * @copyright	Copyright (C) 2005 - 2010 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* Import project-level system CSS */
+@import url(../../../../media/system/css/system.css);

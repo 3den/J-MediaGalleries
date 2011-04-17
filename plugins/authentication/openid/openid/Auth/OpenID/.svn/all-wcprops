@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Consumer.php
+END
+AX.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/AX.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Interface.php
+END
+DatabaseConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/DatabaseConnection.php
+END
+TrustRoot.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/TrustRoot.php
+END
+DumbStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/DumbStore.php
+END
+DiffieHellman.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/DiffieHellman.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/index.html
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Extension.php
+END
+MySQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/MySQLStore.php
+END
+SReg.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/SReg.php
+END
+Association.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Association.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Server.php
+END
+FileStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/FileStore.php
+END
+PAPE.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/PAPE.php
+END
+HMAC.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/HMAC.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Message.php
+END
+URINorm.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/URINorm.php
+END
+BigMath.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/BigMath.php
+END
+Discover.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Discover.php
+END
+MemcachedStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/MemcachedStore.php
+END
+ServerRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/ServerRequest.php
+END
+PostgreSQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/PostgreSQLStore.php
+END
+Nonce.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Nonce.php
+END
+KVForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/KVForm.php
+END
+CryptUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/CryptUtil.php
+END
+Parse.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/Parse.php
+END
+SQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/SQLStore.php
+END
+SQLiteStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/joomla/!svn/ver/17179/development/branches/mediagalleries/plugins/authentication/openid/openid/Auth/OpenID/SQLiteStore.php
+END
