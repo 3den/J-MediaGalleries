@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/beez_20/css
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-print.css
-file
-
-
-
-
-2011-01-20T16:08:41.000000Z
-19163dcd5e1dcbed558585d3aa7edb6a
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5242
 
 template_rtl.css
 file
@@ -93,6 +59,40 @@ has-props
 
 
 654
+
+print.css
+file
+
+
+
+
+2011-01-20T16:08:41.000000Z
+19163dcd5e1dcbed558585d3aa7edb6a
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5242
 
 nature.css
 file
@@ -196,40 +196,6 @@ has-props
 
 160
 
-general_mozilla.css
-file
-
-
-
-
-2011-03-18T19:59:26.000000Z
-4df173fef8e7f0c612561f6677a1aa51
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-173
-
 position.css
 file
 
@@ -263,6 +229,40 @@ has-props
 
 
 5834
+
+general_mozilla.css
+file
+
+
+
+
+2011-03-18T19:59:26.000000Z
+4df173fef8e7f0c612561f6677a1aa51
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+173
 
 template.css
 file
@@ -332,40 +332,6 @@ has-props
 
 17980
 
-general.css
-file
-
-
-
-
-2011-01-20T16:08:41.000000Z
-31b3901d40996d00b67801c4c49613cf
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4203
-
 layout.css
 file
 
@@ -399,6 +365,40 @@ has-props
 
 
 27720
+
+general.css
+file
+
+
+
+
+2011-01-20T16:08:41.000000Z
+31b3901d40996d00b67801c4c49613cf
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4203
 
 general_konqueror.css
 file
@@ -434,40 +434,6 @@ has-props
 
 180
 
-index.html
-file
-
-
-
-
-2011-03-18T19:59:26.000000Z
-1c7b413c3fa39d0fed40556d2658ac73
-2010-04-26T01:46:24.406939Z
-16465
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-44
-
 personal.css
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 20531
+
+index.html
+file
+
+
+
+
+2011-03-18T19:59:26.000000Z
+1c7b413c3fa39d0fed40556d2658ac73
+2010-04-26T01:46:24.406939Z
+16465
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44
 
 ie7only.css
 file

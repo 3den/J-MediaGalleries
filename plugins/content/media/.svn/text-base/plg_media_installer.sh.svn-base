@@ -1,6 +1,7 @@
+# Change this line to fit your path
 cd /Volumes/WORK/svn/jsop/mediagalleries/
-rm -R plg_media
 
+rm -R plg_media
 mkdir plg_media
 mkdir plg_media/plugins
 mkdir plg_media/plugins/content

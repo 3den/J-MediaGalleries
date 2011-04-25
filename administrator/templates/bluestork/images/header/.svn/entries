@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork/images/header
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-icon-48-links.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-706b4222f44bbb792196231348d17d3a
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2805
 
 icon-48-levels-add.png
 file
@@ -94,17 +60,17 @@ has-props
 
 1125
 
-icon-48-purge.png
+icon-48-links.png
 file
 
 
 
 
 2011-01-20T16:08:10.000000Z
-7f9ffbd391932d848aa32f3c8644492a
-2009-10-24T08:05:57.813149Z
-13319
-severdia
+706b4222f44bbb792196231348d17d3a
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
 has-props
 
 
@@ -126,7 +92,7 @@ has-props
 
 
 
-1789
+2805
 
 icon-48-writemess.png
 file
@@ -162,16 +128,16 @@ has-props
 
 2644
 
-icon-48-newsfeeds.png
+icon-48-purge.png
 file
 
 
 
 
 2011-01-20T16:08:10.000000Z
-1d6e8bd326a90a3d8e79de4777728ea2
-2009-10-17T22:52:35.120049Z
-13221
+7f9ffbd391932d848aa32f3c8644492a
+2009-10-24T08:05:57.813149Z
+13319
 severdia
 has-props
 
@@ -194,7 +160,7 @@ has-props
 
 
 
-1787
+1789
 
 icon-48-language.png
 file
@@ -230,16 +196,16 @@ has-props
 
 3284
 
-icon-48-upload.png
+icon-48-newsfeeds.png
 file
 
 
 
 
 2011-01-20T16:08:10.000000Z
-94ecafbb782f6d766137aadb26f9c90b
-2010-05-10T06:26:51.405104Z
-16933
+1d6e8bd326a90a3d8e79de4777728ea2
+2009-10-17T22:52:35.120049Z
+13221
 severdia
 has-props
 
@@ -262,7 +228,7 @@ has-props
 
 
 
-2407
+1787
 
 icon-messaging.png
 file
@@ -297,6 +263,40 @@ has-props
 
 
 3196
+
+icon-48-upload.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+94ecafbb782f6d766137aadb26f9c90b
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2407
 
 icon-48-clear.png
 file
@@ -1046,40 +1046,6 @@ has-props
 
 1258
 
-icon-48-newsfeeds-cat.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-b4606b2a68c08ab20e4f1dd0ced2d425
-2009-11-19T21:51:10.033503Z
-13533
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1896
-
 icon-48-banner-categories.png
 file
 
@@ -1113,6 +1079,40 @@ has-props
 
 
 2178
+
+icon-48-newsfeeds-cat.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+b4606b2a68c08ab20e4f1dd0ced2d425
+2009-11-19T21:51:10.033503Z
+13533
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1896
 
 icon-48-help-this.png
 file
@@ -1454,40 +1454,6 @@ has-props
 
 2472
 
-icon-48-preview.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-59e7cfa2bcbb3a3a360ca1728c72bd5d
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1157
-
 icon-48-archive.png
 file
 
@@ -1522,14 +1488,14 @@ has-props
 
 1878
 
-icon-48-apply.png
+icon-48-preview.png
 file
 
 
 
 
-2011-01-20T16:08:09.000000Z
-ba936739f8e2ac7ba121ce44b9438f26
+2011-01-20T16:08:10.000000Z
+59e7cfa2bcbb3a3a360ca1728c72bd5d
 2010-05-10T06:26:51.405104Z
 16933
 severdia
@@ -1554,7 +1520,41 @@ has-props
 
 
 
-1585
+1157
+
+icon-48-themes.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+3475f3297fe5b994cd1b6449527d5998
+2009-07-06T00:41:03.270686Z
+12471
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1176
 
 icon-48-frontpage.png
 file
@@ -1590,17 +1590,17 @@ has-props
 
 2019
 
-icon-48-themes.png
+icon-48-apply.png
 file
 
 
 
 
-2011-01-20T16:08:10.000000Z
-3475f3297fe5b994cd1b6449527d5998
-2009-07-06T00:41:03.270686Z
-12471
-eddieajau
+2011-01-20T16:08:09.000000Z
+ba936739f8e2ac7ba121ce44b9438f26
+2010-05-10T06:26:51.405104Z
+16933
+severdia
 has-props
 
 
@@ -1622,7 +1622,7 @@ has-props
 
 
 
-1176
+1585
 
 icon-48-menu-add.png
 file
@@ -1692,40 +1692,6 @@ has-props
 
 2557
 
-icon-48-contacts-categories.png
-file
-
-
-
-
-2011-01-20T16:08:09.000000Z
-ba1e22876b40831e1a548a938bc0dc43
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2023
-
 icon-48-user-edit.png
 file
 
@@ -1759,6 +1725,40 @@ has-props
 
 
 1579
+
+icon-48-contacts-categories.png
+file
+
+
+
+
+2011-01-20T16:08:09.000000Z
+ba1e22876b40831e1a548a938bc0dc43
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2023
 
 icon-48-cpanel.png
 file
@@ -1794,40 +1794,6 @@ has-props
 
 1761
 
-icon-48-menu.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-b7ab4e5bf9fe5d58181d87e723f1b1c8
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1649
-
 icon-48-section.png
 file
 
@@ -1861,6 +1827,40 @@ has-props
 
 
 1994
+
+icon-48-menu.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+b7ab4e5bf9fe5d58181d87e723f1b1c8
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1649
 
 icon-48-groups-add.png
 file
@@ -1896,40 +1896,6 @@ has-props
 
 3619
 
-icon-48-move.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-ea6e34c4cf11708f7b944487cda86ce4
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-973
-
 icon-48-massmail.png
 file
 
@@ -1963,6 +1929,40 @@ has-props
 
 
 2799
+
+icon-48-move.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+ea6e34c4cf11708f7b944487cda86ce4
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+973
 
 icon-48-article-add.png
 file
@@ -2066,40 +2066,6 @@ has-props
 
 1614
 
-icon-48-help-forum.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-44ef1cc71e25d27e42cfa6490a57eaea
-2009-07-27T07:51:47.472996Z
-12575
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3224
-
 icon-48-contacts.png
 file
 
@@ -2133,6 +2099,40 @@ has-props
 
 
 2752
+
+icon-48-help-forum.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+44ef1cc71e25d27e42cfa6490a57eaea
+2009-07-27T07:51:47.472996Z
+12575
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3224
 
 icon-48-inbox.png
 file

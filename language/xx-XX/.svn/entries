@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/language/xx-XX
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-xx-XX.mod_footer.sys.ini
-file
-
-
-
-
-2010-10-27T12:46:11.000000Z
-9d7461bf1096cfa15c6bb8375a2da7c8
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-479
 
 xx-XX.mod_articles_categories.ini
 file
@@ -94,6 +60,40 @@ has-props
 
 1427
 
+xx-XX.mod_footer.sys.ini
+file
+
+
+
+
+2010-10-27T12:46:11.000000Z
+9d7461bf1096cfa15c6bb8375a2da7c8
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+479
+
 xx-XX.mod_weblinks.ini
 file
 
@@ -127,40 +127,6 @@ has-props
 
 
 1744
-
-xx-XX.mod_articles_news.sys.ini
-file
-
-
-
-
-2010-10-27T12:46:11.000000Z
-251a36d113255c232b56f112d3bab779
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-482
 
 xx-XX.tpl_rhuk_milkyway.ini
 file
@@ -196,14 +162,14 @@ has-props
 
 1434
 
-xx-XX.mod_related_items.ini
+xx-XX.mod_articles_news.sys.ini
 file
 
 
 
 
 2010-10-27T12:46:11.000000Z
-7391fdb3342a55981cc0502b9c9b192b
+251a36d113255c232b56f112d3bab779
 2010-06-17T14:39:49.545452Z
 17726
 3dentech
@@ -228,7 +194,7 @@ has-props
 
 
 
-1085
+482
 
 xx-XX.mod_menu.sys.ini
 file
@@ -263,6 +229,40 @@ has-props
 
 
 396
+
+xx-XX.mod_related_items.ini
+file
+
+
+
+
+2010-10-27T12:46:11.000000Z
+7391fdb3342a55981cc0502b9c9b192b
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1085
 
 xx-XX.mod_search.sys.ini
 file
@@ -1182,16 +1182,16 @@ has-props
 
 12359
 
-xx-XX.tpl_beez_20.ini
+xx-XX.com_messages.ini
 file
 
 
 
 
 2010-10-27T12:46:11.000000Z
-11cb00411ddf2d072b7fce3fada2155c
-2010-08-05T21:29:01.519416Z
-18338
+da0871837aea41ef8b4b191ca1b96eb9
+2010-06-17T14:39:49.545452Z
+17726
 3dentech
 has-props
 
@@ -1214,7 +1214,7 @@ has-props
 
 
 
-2651
+537
 
 xx-XX.mod_languages.ini
 file
@@ -1250,16 +1250,16 @@ has-props
 
 2263
 
-xx-XX.com_messages.ini
+xx-XX.tpl_beez_20.ini
 file
 
 
 
 
 2010-10-27T12:46:11.000000Z
-da0871837aea41ef8b4b191ca1b96eb9
-2010-06-17T14:39:49.545452Z
-17726
+11cb00411ddf2d072b7fce3fada2155c
+2010-08-05T21:29:01.519416Z
+18338
 3dentech
 has-props
 
@@ -1282,7 +1282,7 @@ has-props
 
 
 
-537
+2651
 
 xx-XX.mod_custom.ini
 file
@@ -1420,40 +1420,6 @@ has-props
 
 578
 
-xx-XX.mod_login.sys.ini
-file
-
-
-
-
-2010-10-27T12:46:11.000000Z
-82e8493d9b784b64d94f72f5a005ab6c
-2010-08-05T21:29:01.519416Z
-18338
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-596
-
 xx-XX.mod_articles_popular.sys.ini
 file
 
@@ -1487,6 +1453,40 @@ has-props
 
 
 497
+
+xx-XX.mod_login.sys.ini
+file
+
+
+
+
+2010-10-27T12:46:11.000000Z
+82e8493d9b784b64d94f72f5a005ab6c
+2010-08-05T21:29:01.519416Z
+18338
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+596
 
 xx-XX.mod_banners.ini
 file
@@ -1658,40 +1658,6 @@ has-props
 
 446
 
-xx-XX.mod_whosonline.sys.ini
-file
-
-
-
-
-2010-10-27T12:46:11.000000Z
-5ce745588234ed9b66e43222e8f99a1b
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-535
-
 xx-XX.mod_articles_news.ini
 file
 
@@ -1725,6 +1691,40 @@ has-props
 
 
 2097
+
+xx-XX.mod_whosonline.sys.ini
+file
+
+
+
+
+2010-10-27T12:46:11.000000Z
+5ce745588234ed9b66e43222e8f99a1b
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+535
 
 xx-XX.mod_menu.ini
 file
@@ -1896,16 +1896,16 @@ has-props
 
 1559
 
-xx-XX.tpl_beez_20.sys.ini
+xx-XX.xml
 file
 
 
 
 
 2010-10-27T12:46:11.000000Z
-2c23df06979159dc87c72d6595401412
-2010-06-17T14:39:49.545452Z
-17726
+c531e962c24899f252ecddb8d71c9de3
+2010-10-22T19:50:48.262253Z
+19205
 3dentech
 has-props
 
@@ -1928,7 +1928,7 @@ has-props
 
 
 
-376
+3765
 
 xx-XX.mod_languages.sys.ini
 file
@@ -1964,16 +1964,16 @@ has-props
 
 453
 
-xx-XX.xml
+xx-XX.tpl_beez_20.sys.ini
 file
 
 
 
 
 2010-10-27T12:46:11.000000Z
-c531e962c24899f252ecddb8d71c9de3
-2010-10-22T19:50:48.262253Z
-19205
+2c23df06979159dc87c72d6595401412
+2010-06-17T14:39:49.545452Z
+17726
 3dentech
 has-props
 
@@ -1996,7 +1996,7 @@ has-props
 
 
 
-3765
+376
 
 xx-XX.com_mailto.ini
 file

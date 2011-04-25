@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork/images/admin
 http://joomlacode.org/svn/joomla
 
@@ -60,40 +60,6 @@ has-props
 
 476
 
-uparrow-1.png
-file
-
-
-
-
-2011-01-20T16:08:09.000000Z
-fe782ec05e10641abd0bd8a6b2261979
-2009-09-10T17:01:19.297758Z
-12690
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-293
-
 publish_x.png
 file
 
@@ -128,14 +94,14 @@ has-props
 
 560
 
-publish_y.png
+uparrow-1.png
 file
 
 
 
 
-2011-03-18T19:59:22.000000Z
-8ff08bb3a2baa35a82175ceb8ff83019
+2011-01-20T16:08:09.000000Z
+fe782ec05e10641abd0bd8a6b2261979
 2009-09-10T17:01:19.297758Z
 12690
 severdia
@@ -160,41 +126,7 @@ has-props
 
 
 
-737
-
-icon-16-notice-note.png
-file
-
-
-
-
-2011-01-20T16:08:09.000000Z
-fbbb48d8087a78951712f32b488cb6d2
-2010-08-05T21:29:01.519416Z
-18338
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-589
+293
 
 filesave.png
 file
@@ -230,16 +162,50 @@ has-props
 
 1086
 
-uparrow.png
+icon-16-notice-note.png
 file
 
 
 
 
 2011-01-20T16:08:09.000000Z
-cc6eca05de1e39646ce9a5510fa83018
-2010-05-16T00:03:00.740176Z
-17085
+fbbb48d8087a78951712f32b488cb6d2
+2010-08-05T21:29:01.519416Z
+18338
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+589
+
+publish_y.png
+file
+
+
+
+
+2011-03-18T19:59:22.000000Z
+8ff08bb3a2baa35a82175ceb8ff83019
+2009-09-10T17:01:19.297758Z
+12690
 severdia
 has-props
 
@@ -262,7 +228,7 @@ has-props
 
 
 
-605
+737
 
 featured.png
 file
@@ -298,14 +264,14 @@ has-props
 
 615
 
-downarrow0.png
+uparrow.png
 file
 
 
 
 
 2011-01-20T16:08:09.000000Z
-d4736adffd072d840b8930beb3183ce8
+cc6eca05de1e39646ce9a5510fa83018
 2010-05-16T00:03:00.740176Z
 17085
 severdia
@@ -330,7 +296,7 @@ has-props
 
 
 
-625
+605
 
 icon-16-add.png
 file
@@ -365,6 +331,40 @@ has-props
 
 
 712
+
+downarrow0.png
+file
+
+
+
+
+2011-01-20T16:08:09.000000Z
+d4736adffd072d840b8930beb3183ce8
+2010-05-16T00:03:00.740176Z
+17085
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+625
 
 disabled.png
 file

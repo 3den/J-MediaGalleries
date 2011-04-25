@@ -33,7 +33,7 @@ V 1209
 17063,beez20,/development/branches/beez20,branch
 K 10
 svn:ignore
-V 156
+V 161
 configuration.php
 .project
 .amateras
@@ -49,6 +49,7 @@ plg_media
 .cache
 bin
 Thumbs.db
+.git
 
 K 13
 svn:mergeinfo

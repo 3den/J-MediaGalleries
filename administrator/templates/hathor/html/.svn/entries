@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/hathor/html
 http://joomlacode.org/svn/joomla
 
@@ -25,9 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-com_plugins
-dir
 
 pagination.php
 file
@@ -63,10 +60,13 @@ has-props
 
 4621
 
-com_newsfeeds
+com_plugins
 dir
 
 mod_popular
+dir
+
+com_newsfeeds
 dir
 
 mod_status
@@ -78,19 +78,19 @@ dir
 com_menus
 dir
 
-com_banners
+com_admin
 dir
 
-com_admin
+com_banners
 dir
 
 com_contact
 dir
 
-com_installer
+mod_latest
 dir
 
-mod_latest
+com_installer
 dir
 
 com_templates

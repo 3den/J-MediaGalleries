@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/language/administrator/xx-XX
 http://joomlacode.org/svn/joomla
 
@@ -604,40 +604,6 @@ file
 
 401
 
-xx-XX.plg_authentication_gmail.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-16d8d76710538fda9ed74cec7a5da96c
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-594
-
 xx-XX.mod_login.ini
 file
 
@@ -672,16 +638,16 @@ file
 
 698
 
-xx-XX.com_content.ini
+xx-XX.plg_authentication_gmail.sys.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-e7b97052c07d6fc3bdbd0d588cf3e01d
-2011-03-19T17:31:34.352764Z
-20994
+16d8d76710538fda9ed74cec7a5da96c
+2011-03-19T17:22:07.457709Z
+20993
 3dentech
 
 
@@ -704,7 +670,41 @@ e7b97052c07d6fc3bdbd0d588cf3e01d
 
 
 
-9524
+594
+
+xx-XX.plg_content_geshi.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+d85cde623633ef001a9e8d8bc07a5242
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+466
 
 xx-XX.mod_latest.sys.ini
 file
@@ -740,16 +740,16 @@ file
 
 511
 
-xx-XX.plg_content_geshi.sys.ini
+xx-XX.com_content.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-d85cde623633ef001a9e8d8bc07a5242
-2011-03-19T17:22:07.457709Z
-20993
+e7b97052c07d6fc3bdbd0d588cf3e01d
+2011-03-19T17:31:34.352764Z
+20994
 3dentech
 
 
@@ -772,7 +772,7 @@ d85cde623633ef001a9e8d8bc07a5242
 
 
 
-466
+9524
 
 xx-XX.plg_search_content.sys.ini
 file
@@ -910,14 +910,14 @@ file
 
 395
 
-xx-XX.com_categories.ini
+xx-XX.plg_system_sef.ini
 file
 
 
 
 
-2011-01-20T16:08:44.000000Z
-d215dec08dc23c12e63455cc46025eeb
+2011-01-20T16:08:45.000000Z
+5e59eb1187de4a962312ebdc71c19b84
 2011-03-19T17:31:34.352764Z
 20994
 3dentech
@@ -942,7 +942,7 @@ d215dec08dc23c12e63455cc46025eeb
 
 
 
-5377
+460
 
 xx-XX.mod_online.ini
 file
@@ -978,14 +978,14 @@ a1a3c8ea60f041d7b5f73ab0f9671f76
 
 451
 
-xx-XX.plg_system_sef.ini
+xx-XX.com_categories.ini
 file
 
 
 
 
-2011-01-20T16:08:45.000000Z
-5e59eb1187de4a962312ebdc71c19b84
+2011-01-20T16:08:44.000000Z
+d215dec08dc23c12e63455cc46025eeb
 2011-03-19T17:31:34.352764Z
 20994
 3dentech
@@ -1010,7 +1010,7 @@ file
 
 
 
-460
+5377
 
 xx-XX.com_admin.ini
 file
@@ -2236,40 +2236,6 @@ file
 
 452
 
-xx-XX.plg_authentication_ldap.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-61384cc59d01a3c8e17ee5590c8fe3fb
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3331
-
 xx-XX.mod_popular.ini
 file
 
@@ -2303,6 +2269,40 @@ d0ec20b0fb27faec75bb3f79449634a7
 
 
 2400
+
+xx-XX.plg_authentication_ldap.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+61384cc59d01a3c8e17ee5590c8fe3fb
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3331
 
 xx-XX.mod_custom.sys.ini
 file
@@ -2372,16 +2372,16 @@ file
 
 416
 
-xx-XX.plg_content_joomla.sys.ini
+xx-XX.plg_content_pagebreak.sys.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-6d191b27af974ba1bd5eebe1a6e1232f
-2011-03-19T17:22:07.457709Z
-20993
+02649fc1afa30fab3e75b68aa01be805
+2011-03-19T17:31:34.352764Z
+20994
 3dentech
 
 
@@ -2404,7 +2404,7 @@ file
 
 
 
-338
+1207
 
 xx-XX.com_media.sys.ini
 file
@@ -2440,48 +2440,14 @@ file
 
 380
 
-xx-XX.plg_content_pagebreak.sys.ini
+xx-XX.plg_content_joomla.sys.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-02649fc1afa30fab3e75b68aa01be805
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1207
-
-xx-XX.mod_latest.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-e93a37d3a22c57db09f02f12f002a897
+6d191b27af974ba1bd5eebe1a6e1232f
 2011-03-19T17:22:07.457709Z
 20993
 3dentech
@@ -2506,7 +2472,7 @@ e93a37d3a22c57db09f02f12f002a897
 
 
 
-4189
+338
 
 xx-XX.plg_content_geshi.ini
 file
@@ -2541,6 +2507,40 @@ file
 
 
 462
+
+xx-XX.mod_latest.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+e93a37d3a22c57db09f02f12f002a897
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4189
 
 xx-XX.plg_authentication_joomla.sys.ini
 file
@@ -2610,40 +2610,6 @@ file
 
 943
 
-xx-XX.mod_quickicon.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-e56d40ed22c79330e518503310c261d3
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-447
-
 xx-XX.plg_search_content.ini
 file
 
@@ -2677,6 +2643,40 @@ file
 
 
 787
+
+xx-XX.mod_quickicon.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+e56d40ed22c79330e518503310c261d3
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+447
 
 xx-XX.mod_feed.ini
 file
@@ -3086,40 +3086,6 @@ file
 
 430
 
-xx-XX.com_users.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-91810f53bbfce4b563008f9d9f903d34
-2011-03-19T17:10:33.534219Z
-20992
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12538
-
 xx-XX.plg_system_languagefilter.ini
 file
 
@@ -3154,16 +3120,16 @@ file
 
 987
 
-xx-XX.com_checkin.ini
+xx-XX.com_users.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-31f3c072817234f265c06c9d7058aa82
-2011-03-19T17:22:07.457709Z
-20993
+91810f53bbfce4b563008f9d9f903d34
+2011-03-19T17:10:33.534219Z
+20992
 3dentech
 
 
@@ -3186,7 +3152,7 @@ file
 
 
 
-1579
+12538
 
 xx-XX.com_menus.sys.ini
 file
@@ -3221,6 +3187,40 @@ file
 
 
 376
+
+xx-XX.com_checkin.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+31f3c072817234f265c06c9d7058aa82
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1579
 
 xx-XX.tpl_hathor.ini
 file
@@ -3358,40 +3358,6 @@ file
 
 423
 
-xx-XX.mod_toolbar.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-7abae272d72130b07cd9944f5c1dc90f
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-440
-
 xx-XX.com_wrapper.ini
 file
 
@@ -3425,6 +3391,40 @@ file
 
 
 1647
+
+xx-XX.mod_toolbar.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+7abae272d72130b07cd9944f5c1dc90f
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+440
 
 xx-XX.mod_feed.sys.ini
 file
@@ -3596,40 +3596,6 @@ db54b65019e939af0361b928d9fc9007
 
 372
 
-xx-XX.plg_editors-xtd_article.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-fd6c0ae7c05d8f2c7ed7915cccd9fff6
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-514
-
 xx-XX.plg_user_contactcreator.sys.ini
 file
 
@@ -3663,6 +3629,40 @@ file
 
 
 466
+
+xx-XX.plg_editors-xtd_article.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+fd6c0ae7c05d8f2c7ed7915cccd9fff6
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+514
 
 xx-XX.tpl_bluestork.ini
 file
@@ -3766,40 +3766,6 @@ file
 
 454
 
-xx-XX.com_cpanel.ini
-file
-
-
-
-
-2011-01-20T16:08:44.000000Z
-9732cb1c50cb95b47dd17a3fc303f5a1
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-369
-
 xx-XX.mod_logged.ini
 file
 
@@ -3833,6 +3799,40 @@ e593ba34e1659ff0f81006310679fdb8
 
 
 889
+
+xx-XX.com_cpanel.ini
+file
+
+
+
+
+2011-01-20T16:08:44.000000Z
+9732cb1c50cb95b47dd17a3fc303f5a1
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+369
 
 xx-XX.plg_editors_tinymce.ini
 file
@@ -3936,16 +3936,16 @@ file
 
 564
 
-xx-XX.plg_content_pagebreak.ini
+xx-XX.com_media.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-5a77e82b554f21fa8a306cf3bded36a8
-2011-03-19T17:22:07.457709Z
-20993
+ce436b0aba0f77ca1b01114a4ebd6cf2
+2011-03-19T17:31:34.352764Z
+20994
 3dentech
 
 
@@ -3968,7 +3968,7 @@ file
 
 
 
-2164
+7137
 
 xx-XX.plg_content_joomla.ini
 file
@@ -4004,16 +4004,16 @@ file
 
 876
 
-xx-XX.com_media.ini
+xx-XX.plg_content_pagebreak.ini
 file
 
 
 
 
 2011-01-20T16:08:44.000000Z
-ce436b0aba0f77ca1b01114a4ebd6cf2
-2011-03-19T17:31:34.352764Z
-20994
+5a77e82b554f21fa8a306cf3bded36a8
+2011-03-19T17:22:07.457709Z
+20993
 3dentech
 
 
@@ -4036,7 +4036,7 @@ ce436b0aba0f77ca1b01114a4ebd6cf2
 
 
 
-7137
+2164
 
 xx-XX.com_checkin.sys.ini
 file

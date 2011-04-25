@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/joomla/!svn/ver/20997/development/branches/mediagalleries/plugins/content/media
+/svn/joomla/!svn/ver/21163/development/branches/mediagalleries/plugins/content/media
 END
 media.php
 K 25
 svn:wc:ra_dav:version-url
 V 94
-/svn/joomla/!svn/ver/20995/development/branches/mediagalleries/plugins/content/media/media.php
+/svn/joomla/!svn/ver/21188/development/branches/mediagalleries/plugins/content/media/media.php
 END
 plg_media_installer.sh
 K 25
 svn:wc:ra_dav:version-url
 V 107
-/svn/joomla/!svn/ver/20996/development/branches/mediagalleries/plugins/content/media/plg_media_installer.sh
+/svn/joomla/!svn/ver/21163/development/branches/mediagalleries/plugins/content/media/plg_media_installer.sh
 END
 index.html
 K 25
@@ -25,5 +25,5 @@ media.xml
 K 25
 svn:wc:ra_dav:version-url
 V 94
-/svn/joomla/!svn/ver/20995/development/branches/mediagalleries/plugins/content/media/media.xml
+/svn/joomla/!svn/ver/21188/development/branches/mediagalleries/plugins/content/media/media.xml
 END

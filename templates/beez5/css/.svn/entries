@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/beez5/css
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-template_rtl.css
-file
-
-
-
-
-2011-03-18T19:59:27.000000Z
-c404725c2171a00232d821932c33ddaa
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-654
 
 print.css
 file
@@ -93,6 +59,40 @@ has-props
 
 
 5704
+
+template_rtl.css
+file
+
+
+
+
+2011-03-18T19:59:27.000000Z
+c404725c2171a00232d821932c33ddaa
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+654
 
 ieonly.css
 file
@@ -230,40 +230,6 @@ has-props
 
 160
 
-general_mozilla.css
-file
-
-
-
-
-2011-03-18T19:59:27.000000Z
-4df173fef8e7f0c612561f6677a1aa51
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-173
-
 position.css
 file
 
@@ -297,6 +263,40 @@ has-props
 
 
 5470
+
+general_mozilla.css
+file
+
+
+
+
+2011-03-18T19:59:27.000000Z
+4df173fef8e7f0c612561f6677a1aa51
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+173
 
 beez5.css
 file
@@ -366,40 +366,6 @@ has-props
 
 1505
 
-general.css
-file
-
-
-
-
-2011-01-20T16:08:40.000000Z
-f5afb115d89831e65a8e45201a647115
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4189
-
 layout.css
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 27582
+
+general.css
+file
+
+
+
+
+2011-01-20T16:08:40.000000Z
+f5afb115d89831e65a8e45201a647115
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4189
 
 beez5_konqueror.css
 file

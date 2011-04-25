@@ -1,14 +1,14 @@
 10
 
 dir
-20998
+21164
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries
 http://joomlacode.org/svn/joomla
 
 
 
-2011-03-19T18:49:03.397294Z
-20998
+2011-04-17T22:23:42.787816Z
+21164
 3dentech
 has-props
 
@@ -36,9 +36,12 @@ has-props
 media
 dir
 
+administrator
+dir
+
 joomla.xml
 file
-20997
+21163
 
 
 
@@ -70,11 +73,42 @@ has-props
 
 1240
 
-administrator
-dir
-
 plugins
 dir
+
+dir_conflicts.prej
+file
+21163
+
+
+
+2011-04-17T22:20:37.000000Z
+431f9e65bca67763c769c95d0a131fac
+2011-04-17T22:06:37.024225Z
+21162
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+740
 
 language
 dir
@@ -82,12 +116,9 @@ dir
 components
 dir
 
-nbproject
-dir
-
 robots.txt
 file
-20997
+21163
 
 
 
@@ -119,12 +150,49 @@ has-props
 
 301
 
+nbproject
+dir
+
 .externalToolBuilders
 dir
 
+README
+file
+21163
+
+
+
+2011-04-17T17:24:45.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2011-04-17T22:06:37.024225Z
+21162
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
 index.php
 file
-20997
+21163
 
 
 
@@ -159,9 +227,12 @@ has-props
 templates
 dir
 
+tmp
+dir
+
 LICENSE.txt
 file
-20997
+21163
 
 
 
@@ -193,9 +264,6 @@ has-props
 
 17816
 
-tmp
-dir
-
 installation
 dir
 
@@ -219,7 +287,7 @@ dir
 
 htaccess.txt
 file
-20997
+21163
 
 
 
@@ -253,7 +321,7 @@ has-props
 
 README.txt
 file
-20997
+21163
 
 
 

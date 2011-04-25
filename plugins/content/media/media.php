@@ -52,20 +52,24 @@ class plgContentMedia extends JPlugin {
             $total = preg_match_all($regex, $row->text, $matches);
 
             // 	Default	->fixed
-            $w = (int) $this->params->def('width', 400);
-            $h = (int) $this->params->def('height', 0);
+            $w = (int)$this->params->def('width', 400);
+            $h = (int)$this->params->def('height', 0 );
             $ast = (int) $this->params->def('autostart', 0);
 
             // Loop
             for ($x = 0; $x < $total; $x++) {
-                // General Params
-                $parts = preg_replace('/\<.*?\>/', '', trim($matches[1][$x])); // Dumies Prof
+                // General Params // Dumies Prof
+                $parts = preg_replace('/\<.*?\>/', '', trim($matches[1][$x])); 
                 $parts = explode(' ', $parts); // Split
                 // Default Vaues
-                $width = $w;
-                $height = ($h > 0) ? $h : ($width * 0.7);
+                /*
+                  $width = $w;
+                  $height = ($h > 0)? $h : ($width * 0.7);
+                  $autostart = $ast;
+                 */
+                $width = "";
+                $height = '';
                 $autostart = $ast;
-
                 // Params
                 $pcount = count($parts);
 
@@ -87,19 +91,18 @@ class plgContentMedia extends JPlugin {
                 }
 
                 // Video Display
-                $media = $parts[0];
+                $media = $this->getMediaObject($parts[0], $params);
 
                 // Put Video inside the content
-                $replace = self::addMedia($media, $width, $height, $autostart);
                 $replace = '<span id="media_' . $x . '" class="media" style="position:relative">'
-                        . $replace
+                        . $media->getMedia()
                         . '</span>';
                 $row->text = str_replace($matches[0][$x], $replace, $row->text);
             }
         }
 
-        // Thumb
-        if ($makeThumb) {
+        // Thumb not ready
+        if (false) {
             // Regular Expression
             $regex = '/\{thumb(.*?)}/i';
             $total = preg_match_all($regex, $row->text, $matches);
@@ -156,522 +159,79 @@ class plgContentMedia extends JPlugin {
     public function onLoadMedia($item, &$params) {
         // Merge params
         $this->params->merge($params);
-        $params = & $this->params;
 
-        // Default	->fixed
-
-        $w = (int) $params->get('width', 400);
-        $h = (int) $params->get('height', 0);
-        $ast = (int) $params->get('autostart', 0);
-        $item->media = self::addMedia($item->url, $w, $h, $ast);
+        // Get Media Object and return the Code to embed
+        $media = $this->getMediaObject($item->url, $params);
+        $item->media = $media->getMedia();
         return true;
     }
+    
+    public static function getParams() {
+        $db = JFactory::getDbo();
+        $db->setQuery("select params from #__extensions where name='PLG_CONTENT_MEDIA' ");
+        $res = $db->query();
+        if ($res) {
+            $params = $db->loadResult();
+            //We get the params in serialized JSON form :) But let's reduce efforts by converting to an Array
+            $reg = JRegistry::getInstance(0);
+            $reg->loadJSON($params);
+            //Wuhoo we have the params...now send it...
+            return $params;
+        } else {
+            return false;
+        }
+    }
 
-    /** The most important function!
-     * Show Media
-     * @return str
-     * @param string $media Media URL
-     * @param int $width [optional]
-     * @param int $width [optional]
-     * @param boolean $autoplay True if yes [optional]
+    /**
+     *
+     * @param string $media
+     * @param JParams $params
+     * @return MediaObject
      */
-    public function addMedia($media, $width='', $height ='', $autostart=0) {
-
+    public function getMediaObject($media, $params=array()) {
         //Preprocess the media data to make it standard for the functions...
-        $pparams = $this->params; // make it work
-        // Fix Video UrL
+        $this->params->merge($params);
+        $params = $this->params; //->toArray();
+        //var_dump($params);
+
+        // Fix Media UrL
         $media = strpos($media, "http://") ?
                 $media : // Custom PATH
-                $pparams->get('uri_img') . $media; // Default PATH
-        // Size Style
-        if ($width) {
-            $height = ($height) ?
-                    'height:' . $height . 'px;' : // Manual H
-                    'height:' . $width . 'px;'; // Auto H
-
-            $width = 'width:' . $width . 'px;';
-        } elseif ($height) {
-            $height = 'height:' . $height . 'px;';
-            $width = 'width:' . $height . 'px;';
-        } else {
-            $height = '';
-            $width = '';
-        }
-
-        // AutoStart
-        $autostart = (boolean) $autostart;
-        //First Check if we have the extension...
-        $type = substr($media, strrpos($media, '.') + 1); // type contains the text after the last '.'
+                $params->get('default_path', 'images/') . $media; // Default PATH
+        
+        //First Check if we have the file extension
+        $type = substr($media, strrpos($media, '.') + 1);
         if (ctype_alnum($type)) { // If the type is alphanumeric...
             // Aha...include the file based on the extension...
-            if (!file_exists(dirname(__FILE__) . DS . 'types' . DS . $type . '.php')) {
-                $embed = self::getHost("default");
-                return $embed->getMedia($media, $width, $height, $params = array());
-            } else {
-                // It exists
-                $embed = self::getHost($type);
-                return $embed->getMedia($media, $width, $height, $params = array());
-                //$embed->getMedia($media, $width, $height,$params=array());
+            switch($type){
+                case 'jpg':
+                case 'jpeg':
+                case 'gif':
+                case 'png':
+                    $type = 'image';
+                    break;
             }
-        } else {
+        }
+        // It might be a remote server
+        else {
             //This means that we don't know the extension of the file..
-            $host = strtolower(parse_url($media, PHP_URL_HOST));
-            $uexplode = explode('.', $host);
-            $host = '';
-            foreach ($uexplode as $temp) {
-                if (strcmp($temp, 'www')) {
-                    //Stripping Off WWW
-                    $host.=$temp;
-                }
-            } // Now host contains only what we want...like www.youtube.com is now youtubecom :D
-
-            if (!file_exists(dirname(__FILE__) . DS . 'types' . DS . $host . '.php')) {
-                $embed = self::getHost("default");
-                return $embed->getMedia($media, $width, $height, $params = array());
-            } else {
-                $embed = self::getHost($host);
-                return $embed->getMedia($media, $width, $height, $params = array());
-            }
+            // \W removes the f* whitespace char
+            $pattern = '/(www\.)|(http\:\/\/)|(\/(.*))|(\W)/i';
+            $type = preg_replace($pattern, '', $media);
         }
-    }
-
-    public static function getMediaObject($type) {
-        $mediaFile = dirname(__FILE__) . DS . 'types' . DS . $type . '.php';
         
-        // There is no file
-        if(!file_exists($mediaFile)){
-            return new MediaType();
+        // Now I get the media object
+        $file = dirname(__FILE__) . DS . 'types' . DS . $type . '.php';
+
+        // If there is no file load the parent
+        if (!file_exists($file)) {
+            //return new MediaType();
+            return new MediaType($media, $params);
         }
 
-        // There is a file
-        require_once $mediaFile;
+        // There is a file so load it
+        require_once $file;
         $class = 'MediaType' . $type;
-        $host = new $class();
-        return $host;
+        return new $class($media, $params);
     }
-
-    /**
-     * getThumb Method To Get The Thumbnail Of Any Media, If Proper Thumbnail Is Not Generated A Thumbnail Based On The Media Type Is Generated
-     *
-     * Method is called by the view
-     *
-     * @param	string	The URL of the media
-     * @param	int 	Width Of Thumbnail
-     * @param	int	 	Height Of Thumbnail
-     * @param	bool	Save On The Server Or Not
-     * @since	1.6
-     */
-    public function getThumb($media, $width=160, $height = 0) {
-
-
-        $pparams = &$this->params;
-
-        // Fix Video UrL
-        $media = strpos($media, "http://") ?
-                $media : // Custom PATH
-                $pparams->get('uri_img') . $media; // Default PATH
-
-        if (stripos($media, 'youtube.com')) {
-            $replace = thumbYoutube($media, $width, $height);
-        }
-
-        /* Yahoo Video
-         * *************************************************** */ elseif (stripos($media, 'video.yahoo')) {
-
-            $replace = thumbVideoYahoo($media, $width, $height);
-        }
-
-        /* Google Video
-         * *************************************************** */ elseif (stripos($media, 'video.google')) {
-
-            $replace = thumbVideoGoogle($media, $width, $height);
-        }
-
-        /* Brightcove Video
-         * *************************************************** */ elseif (stripos($media, 'brightcove.tv')) {
-
-            $replace = thumbVideoBrightcove($media, $width, $height);
-        }
-
-        /* Metacafe.com
-         * *************************************************** */ elseif (stripos($media, 'metacafe.com')) {
-
-            $replace = thumbVideoMetacafe($media, $width, $height);
-        }
-
-        /* Tangle.com
-         * *************************************************** */ elseif (stripos($media, 'tangle.com')) {
-
-            $replace = thumbVideoTangle($media, $width, $height);
-        }
-
-        /* Megavideo.com
-         * *************************************************** */ elseif (stripos($media, 'megavideo.com')) {
-
-            $replace = thumbVideoMegavideo($media, $width, $height);
-        }
-
-        /* Video from files
-         * **************************************************** */ else {
-            $type = substr($media, strrpos($media, '.'));
-            $type = strtolower($type);
-            switch ($type) {
-
-                /* Flash .SWF
-                 * *************************************************** */
-                case '.swf':
-                    $replace = thumbMediaSWF($media, $width, $height);
-                    break;
-
-                /* Music .MP3
-                 * *************************************************** */
-                case '.mp3':
-                    $replace = thumbAudioMp3($media, $width, $height);
-                    break;
-
-                    break;
-
-                /* JPG, GIF, PNG
-                 * *************************************************** */
-                case '.jpg':
-                case '.gif':
-                case '.png':
-                    $replace = thumbImage($media, $width, $height);
-                    break;
-
-                /* JPG, GIF, PNG, H264
-                 * *************************************************** */
-                case '.h264':
-                    $replace = thumbH264($media, $width, $height);
-                    break;
-
-                /* Video .FLV
-                 * *************************************************** */
-                case '.flv':
-                    $replace = thumbFlv($media, $width, $height);
-                    break;
-
-
-                /* Quicktime MOV,  MP4
-                 * ********************************************** */
-                case '.mov':
-                case '.3gp':
-                case '.mp4':
-                    $replace = thumbVideoQuicktime($media, $width, $height);
-                    break;
-
-                /* Realmedia .RM & .RAM
-                 * *************************************************** */
-                case '.rm':
-                case '.rmvb':
-                case '.ram':
-                    $replace = thumbVideoRealmedia($media, $width, $height);
-                    break;
-
-                /* DivX
-                 * *************************************************** */
-                case '.div':
-                case '.avi':
-                case '.divx':
-                    $replace = thumbVideoDivx($media, $width, $height);
-                    break;
-
-                /* Windows Media
-                 * *************************************************** */
-                case '.asx':
-                case '.wma':
-                case '.wmv':
-                case '.mpg':
-                case '.mpeg':
-                    $replace = thumbVideoWindows($media, $width, $height);
-                    break;
-
-                /* Error
-                 * *************************************************** */
-                default:
-                    $replace = thumbDefault();
-                    break;
-            }
-        }
-
-        // Return video
-        return $replace;
-    }
-
-    public static function getParams() {
-        $plugin = JPluginHelper::getPlugin('content', 'media');
-        $params = new JParameter($plugin->params);
-        return $params;
-    }
-
-    public function getExtension($extension) {
-        include(JPATH_PLUGINS . DS . 'content' . DS . 'media' . DS . 'extensions' . DS . 'embed.' . $extension . '.php');
-    }
-
-
-    /**
-     * Old function to add media with a switch
-     * @param <type> $media
-     * @param <type> $width
-     * @param <type> $height
-     * @param <type> $autostart
-     * @return <type>
-     * @deprecated
-     */
-    public function addMedia1($media, $width='', $height ='', $autostart=0) {
-        // The propose of this is to get the defaults set by the admin -> Fixed :D 
-        $pparams = $this->params; // make it work
-        // Fix Video UrL
-        $media = strpos($media, "http://") ?
-                $media : // Custom PATH
-                $pparams->get('uri_img') . $media; // Default PATH
-        // Size Style
-        if ($width) {
-            $height = ($height) ?
-                    'height:' . $height . 'px;' : // Manual H
-                    'height:' . $width . 'px;'; // Auto H		
-
-            $width = 'width:' . $width . 'px;';
-        } elseif ($height) {
-            $height = 'height:' . $height . 'px;';
-            $width = 'width:' . $height . 'px;';
-        } else {
-            $height = '';
-            $width = '';
-        }
-
-        // AutoStart
-        $autostart = (boolean) $autostart;
-
-
-        /*         * **************************************************
-         * The Show Begins
-         * *************************************************** */
-
-        /* YouTube Video 
-         * *************************************************** */
-        //preg_match('@^(?:youtube.com)?([^/]+)@i',$media);
-        if (stripos($media, 'youtube.com')) {
-            $vparams = array();
-            $vparams[] = 'autoplay=' . $autostart;
-            $vparams[] = 'rel=' . $pparams->get('youtube_rel'); //, 'advanced');
-            $vparams[] = 'loop=' . $pparams->get('youtube_loop'); //, 'advanced');
-            $vparams[] = 'enablejsapi=' . $pparams->get('youtube_enablejsapi', '', 'advanced');
-            $vparams[] = 'playerapiid=' . $pparams->get('youtube_playerapiid', 'advanced');
-            $vparams[] = 'disablekb=' . $pparams->get('youtube_disablekb'); //, 'advanced');
-            $vparams[] = 'egm=' . $pparams->get('youtube_egm'); //, 'advanced');
-            $vparams[] = 'border=' . $pparams->get('youtube_border'); //, 'advanced');
-            $vparams[] = 'color1=0x' . $pparams->get('youtube_color1'); //, 'advanced');
-            $vparams[] = 'color2=0x' . $pparams->get('youtube_color2'); //, 'advanced');
-
-            $replace = addVideoYoutube($media, $width, $height, $vparams);
-        }
-
-        /* Yahoo Video 
-         * *************************************************** */
-        //TODO
-        elseif (stripos($media, 'video.yahoo')) {
-
-            $replace = addVideoYahoo($media, $width, $height, $autostart);
-        }
-
-        /* Google Video 
-         * *************************************************** */
-        //To be Reviewed
-        elseif (stripos($media, 'video.google')) {
-
-            $replace = addVideoGoogle($media, $width, $height, $autostart);
-        }
-
-        /* Brightcove Video 
-         * *************************************************** */
-        //Need not to be there...
-        elseif (stripos($media, 'brightcove.tv')) {
-
-            $replace = addVideoBrightcove($media, $width, $height, $autostart);
-        }
-
-        /* Metacafe.com
-         * *************************************************** */ elseif (stripos($media, 'metacafe.com')) {
-
-            $replace = addVideoMetacafe($media, $width, $height, $autostart);
-        }
-
-        /* Tangle.com
-         * *************************************************** */ elseif (stripos($media, 'tangle.com')) {
-
-            $replace = addVideoTangle($media, $width, $height, $autostart);
-        }
-
-        /* Megavideo.com
-         * *************************************************** */ elseif (stripos($media, 'megavideo.com')) {
-
-            $replace = addVideoMegavideo($media, $width, $height, $autostart);
-        }
-
-        /* Video from files
-         * **************************************************** */ else {
-            $type = substr($media, strrpos($media, '.'));
-            $type = strtolower($type);
-            switch ($type) {
-
-
-                /* Flash .SWF 
-                 * *************************************************** */
-                case '.swf':
-                    $replace = addMediaSWF($media, $width, $height);
-                    break;
-
-                /* Music .MP3
-                 * *************************************************** */
-                case '.mp3':
-                    $vparams = array();
-                    $vparams['path_player'] = "plugins/content/media/media/";
-                    switch ($pparams->get('mp3_player')) {
-                        case 'jwplayer':// Play with JWPLAYER
-                            $vparams['flashvars'][] = 'autostart=' . ( ($autostart) ? 'true' : 'false' );
-                            $vparams['flashvars'][] = 'showeq=true';
-                            $vparams['flashvars'][] = 'showstop=true';
-                            $vparams['flashvars'][] = 'fullscreen=false';
-                            $vparams['flashvars'][] = 'quality=' . ( $pparams->get('jw_quality') ? 'true' : 'false' );
-                            $vparams['flashvars'][] = 'backcolor=0x' . $pparams->get('jw_backcolor'); //, 'advanced');
-
-                            $vparams['flashvars'][] = 'frontcolor=0x' . $pparams->get('jw_frontcolor'); //, 'advanced');
-                            $vparams['flashvars'][] = 'lightcolor=0x' . $pparams->get('jw_lightcolor'); //, 'advanced');
-                            $vparams['flashvars'][] = 'screencolor=0x' . $pparams->get('jw_screencolor'); //, 'advanced');
-                            if ($pparams->get('jw_logo')) {
-                                $vparams['flashvars'][] = 'logo=' . JURI::base() . 'images/' . $pparams->get('jw_logo', 'advanced');
-                            }
-
-                            $height = 'height:100px;';
-                            //$width = 'width: 290px;';		
-                            $replace = addVideoJWPlayer($media, $width, $height, $vparams);
-                            break;
-
-                        case '1pixelout':// Play with 1PIXELOUT
-                        default:
-                            $vparams['autostart'] = ($autostart) ? 'yes' : 'no';
-                            $height = 'height:24px;';
-                            //$width = 'width: 290px;';	
-                            $replace = addMusic1Pixelout($media, $width, $height, $vparams);
-                            break;
-                    }
-                    break;
-
-                /* JPG, GIF, PNG
-                 * *************************************************** */
-                case '.jpg':
-                case '.gif':
-                case '.png':
-                    $replace = addPicture($media, $width, $height);
-                    break;
-
-                /* JPG, GIF, PNG, H264
-                 * *************************************************** */
-                case '.h264':
-                    $vparams = array();
-                    $vparams['path_player'] = "plugins/content/media/media/";
-                    // JW PLAYER
-                    $vparams['flashvars'][] = 'autostart=' . ( ($autostart) ? 'true' : 'false' );
-                    $vparams['flashvars'][] = 'showstop=true';
-                    $vparams['flashvars'][] = 'stretching=fill';
-                    $vparams['flashvars'][] = 'fullscreen=true';
-                    $vparams['flashvars'][] = 'quality=' . ( $pparams->get('jw_quality') ? 'true' : 'false' );
-                    $vparams['flashvars'][] = 'backcolor=0x' . $pparams->get('jw_backcolor'); //, 'advanced');
-                    $vparams['flashvars'][] = 'frontcolor=0x' . $pparams->get('jw_frontcolor'); //, 'advanced');
-                    $vparams['flashvars'][] = 'lightcolor=0x' . $pparams->get('jw_lightcolor'); //, 'advanced');
-                    $vparams['flashvars'][] = 'screencolor=0x' . $pparams->get('jw_screencolor'); //, 'advanced');
-                    if ($pparams->get('jw_logo', '')) {
-                        $vparams['flashvars'][] = 'logo=' . JURI::base() . 'images/' . $pparams->get('jw_logo', 'advanced');
-                    }
-
-                    $replace = addVideoJWPlayer($media, $width, $height, $vparams);
-                    break;
-
-                /* Video .FLV
-                 * *************************************************** */
-                case '.flv':
-                    $vparams = array();
-                    $vparams['path_player'] = "plugins/content/media/media/";
-                    switch ($pparams->get('flv_player')) {
-                        case 'jwplayer':// Play with JWPLAYER
-                            $vparams['flashvars'][] = 'autostart=' . ( ($autostart) ? 'true' : 'false' );
-                            $vparams['flashvars'][] = 'showstop=true';
-                            $vparams['flashvars'][] = 'stretching=fill';
-                            $vparams['flashvars'][] = 'fullscreen=true';
-                            $vparams['flashvars'][] = 'quality=' . ( $pparams->get('jw_quality') ? 'true' : 'false' );
-                            $vparams['flashvars'][] = 'backcolor=0x' . $pparams->get('jw_backcolor'); //, 'advanced');
-                            $vparams['flashvars'][] = 'frontcolor=0x' . $pparams->get('jw_frontcolor'); //, 'advanced');
-                            $vparams['flashvars'][] = 'lightcolor=0x' . $pparams->get('jw_lightcolor'); //, 'advanced');
-                            $vparams['flashvars'][] = 'screencolor=0x' . $pparams->get('jw_screencolor'); //, 'advanced');
-                            if ($pparams->get('jw_logo', '')) {
-                                $vparams['flashvars'][] = 'logo=' . JURI::base() . 'images/' . $pparams->get('jw_logo', 'advanced');
-                            }
-
-                            $replace = addVideoJWPlayer($media, $width, $height, $vparams);
-                            break;
-
-                        case '2kplayer':// Play with simple FLVPlayer
-                        default:
-                            $vparams['autostart'] = ($autostart) ? '1' : '0';
-
-                            $replace = addVideo2KPlayer($media, $width, $height, $vparams);
-                            break;
-                    }
-                    break;
-
-
-                /* Quicktime MOV,  MP4
-                 * ********************************************** */
-                case '.mov':
-                case '.3gp':
-                case '.mp4':
-                    $replace = addVideoQuicktime($media, $width, $height, $autostart);
-                    break;
-
-                /* Realmedia .RM & .RAM
-                 * *************************************************** */
-                case '.rm':
-                case '.rmvb':
-                case '.ram':
-                    $replace = addVideoRealmedia($media, $width, $height, $autostart);
-                    break;
-
-                /* Applet .CLASS
-                 * *************************************************** */
-                case '.class':
-                    $replace = addAppletJava($media, $width, $height);
-                    break;
-
-                /* DivX
-                 * *************************************************** */
-                case '.div':
-                case '.avi':
-                case '.divx':
-                    $replace = addVideoDivx($media, $width, $height, $autostart);
-                    break;
-
-                /* Windows Media
-                 * *************************************************** */
-                case '.asx':
-                case '.wma':
-                case '.wmv':
-                case '.mpg':
-                case '.mpeg':
-                    $replace = addVideoWindows($media, $width, $height, $autostart);
-                    break;
-
-                /* Error
-                 * *************************************************** */
-                default:
-
-                    $replace = addMediaError($media, 'Invalid Media');
-                    break;
-            }
-        }
-
-        // Return video
-        return $replace;
-    }
-
 }

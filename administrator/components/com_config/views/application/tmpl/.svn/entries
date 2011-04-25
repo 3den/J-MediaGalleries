@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/components/com_config/views/application/tmpl
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-default_seo.php
-file
-
-
-
-
-2011-03-18T19:59:16.000000Z
-136d527d522b7e507ae54bca0db78dd1
-2010-05-16T21:03:55.475464Z
-17109
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-714
 
 default_debug.php
 file
@@ -94,6 +60,40 @@ has-props
 
 720
 
+default_seo.php
+file
+
+
+
+
+2011-03-18T19:59:16.000000Z
+136d527d522b7e507ae54bca0db78dd1
+2010-05-16T21:03:55.475464Z
+17109
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+714
+
 default_ftp.php
 file
 
@@ -127,40 +127,6 @@ has-props
 
 
 713
-
-default_navigation.php
-file
-
-
-
-
-2011-03-18T19:59:17.000000Z
-18ea3a9fd2a750b7d85f9a42c4b88f4c
-2010-04-01T02:49:35.758722Z
-15735
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1216
 
 default_locale.php
 file
@@ -196,6 +162,40 @@ has-props
 
 724
 
+default_navigation.php
+file
+
+
+
+
+2011-03-18T19:59:17.000000Z
+18ea3a9fd2a750b7d85f9a42c4b88f4c
+2010-04-01T02:49:35.758722Z
+15735
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1216
+
 default_cache.php
 file
 
@@ -230,40 +230,6 @@ has-props
 
 1077
 
-default_database.php
-file
-
-
-
-
-2011-03-18T19:59:17.000000Z
-c83886072298f4d35b0ba5dcbebd5b6e
-2010-05-16T21:03:55.475464Z
-17109
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-727
-
 default_site.php
 file
 
@@ -297,6 +263,40 @@ has-props
 
 
 715
+
+default_database.php
+file
+
+
+
+
+2011-03-18T19:59:17.000000Z
+c83886072298f4d35b0ba5dcbebd5b6e
+2010-05-16T21:03:55.475464Z
+17109
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+727
 
 default_server.php
 file
@@ -400,17 +400,17 @@ has-props
 
 701
 
-default_metadata.php
+index.html
 file
 
 
 
 
 2011-03-18T19:59:17.000000Z
-ab4767a33af0b8f3a14a068e5e5de05c
-2010-05-16T21:03:55.475464Z
-17109
-severdia
+b256d97fbb697428b7a1286ea33539c0
+2009-07-04T11:50:15.985597Z
+12437
+eddieajau
 has-props
 
 
@@ -432,7 +432,7 @@ has-props
 
 
 
-735
+26
 
 default.php
 file
@@ -468,17 +468,17 @@ has-props
 
 2603
 
-index.html
+default_metadata.php
 file
 
 
 
 
 2011-03-18T19:59:17.000000Z
-b256d97fbb697428b7a1286ea33539c0
-2009-07-04T11:50:15.985597Z
-12437
-eddieajau
+ab4767a33af0b8f3a14a068e5e5de05c
+2010-05-16T21:03:55.475464Z
+17109
+severdia
 has-props
 
 
@@ -500,7 +500,7 @@ has-props
 
 
 
-26
+735
 
 default_mail.php
 file

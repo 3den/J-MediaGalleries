@@ -1,14 +1,14 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/plugins/content/media
 http://joomlacode.org/svn/joomla
 
 
 
-2011-03-19T18:46:59.483533Z
-20997
+2011-04-17T22:14:25.297816Z
+21163
 3dentech
 
 
@@ -40,14 +40,14 @@ dir
 
 media.php
 file
+21188
 
 
 
-
-2011-03-19T18:13:19.000000Z
-ddbae963a3ebdd1614a16316013c4498
-2011-03-19T18:18:01.571014Z
-20995
+2011-04-25T00:34:01.000000Z
+d5be68aebc2d1caa5b9df8d42801cd93
+2011-04-25T00:37:38.073928Z
+21188
 3dentech
 
 
@@ -70,7 +70,7 @@ ddbae963a3ebdd1614a16316013c4498
 
 
 
-27284
+8370
 
 plg_media_installer.sh
 file
@@ -78,10 +78,10 @@ file
 
 
 
-2011-03-19T18:37:10.000000Z
-7b9c387f02e0c12df39db3dd7c1eb58d
-2011-03-19T18:41:18.405424Z
-20996
+2011-04-17T22:11:24.000000Z
+adec683faf7d41e4d51ed4e95c2715c0
+2011-04-17T22:14:25.297816Z
+21163
 3dentech
 
 
@@ -104,7 +104,7 @@ file
 
 
 
-663
+699
 
 index.html
 file
@@ -140,23 +140,19 @@ has-props
 
 26
 
-plg_media_installer.app
+player
 dir
-
-
-
-delete
 
 media.xml
 file
+21188
 
 
 
-
-2011-03-19T18:16:22.000000Z
-e01b1cb871ad8b4b23e7f8be37e0ad84
-2011-03-19T18:18:01.571014Z
-20995
+2011-04-24T21:01:21.000000Z
+04aaa0832b7ba125fa058239b1f9b7bf
+2011-04-25T00:37:38.073928Z
+21188
 3dentech
 has-props
 
@@ -179,5 +175,5 @@ has-props
 
 
 
-8011
+8015
 

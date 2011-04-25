@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/language/en-GB
 http://joomlacode.org/svn/joomla
 
@@ -128,40 +128,6 @@ has-props
 
 430
 
-en-GB.mod_feed.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:23.000000Z
-017231e5433534f443a87e04be06e40c
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-446
-
 en-GB.mod_wrapper.ini
 file
 
@@ -195,6 +161,40 @@ has-props
 
 
 1537
+
+en-GB.mod_feed.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:23.000000Z
+017231e5433534f443a87e04be06e40c
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+446
 
 en-GB.files_joomla.sys.ini
 file
@@ -230,40 +230,6 @@ file
 
 372
 
-en-GB.com_newsfeeds.ini
-file
-
-
-
-
-2011-03-18T19:59:23.000000Z
-c0cc76af6790332d9b4544031a715f6c
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-701
-
 en-GB.mod_random_image.ini
 file
 
@@ -297,6 +263,40 @@ has-props
 
 
 1231
+
+en-GB.com_newsfeeds.ini
+file
+
+
+
+
+2011-03-18T19:59:23.000000Z
+c0cc76af6790332d9b4544031a715f6c
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+701
 
 en-GB.mod_whosonline.ini
 file
@@ -366,40 +366,6 @@ has-props
 
 526
 
-en-GB.com_contact.ini
-file
-
-
-
-
-2011-03-18T19:59:23.000000Z
-9bf64206060476d0249c3a5410e6ebbf
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2185
-
 en-GB.tpl_beez5.ini
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 2548
+
+en-GB.com_contact.ini
+file
+
+
+
+
+2011-03-18T19:59:23.000000Z
+9bf64206060476d0249c3a5410e6ebbf
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2185
 
 en-GB.mod_weblinks.sys.ini
 file
@@ -1114,40 +1114,6 @@ has-props
 
 485
 
-en-GB.mod_articles_news.ini
-file
-
-
-
-
-2011-03-18T19:59:24.000000Z
-4651d31b2513aecae5bd413d5fcb8fba
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2094
-
 en-GB.mod_whosonline.sys.ini
 file
 
@@ -1181,6 +1147,40 @@ has-props
 
 
 573
+
+en-GB.mod_articles_news.ini
+file
+
+
+
+
+2011-03-18T19:59:24.000000Z
+4651d31b2513aecae5bd413d5fcb8fba
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2094
 
 en-GB.mod_menu.ini
 file
@@ -1352,14 +1352,14 @@ has-props
 
 1695
 
-en-GB.xml
+en-GB.mod_languages.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:24.000000Z
-935b22dd76525fe306bee123e3382530
+1ad0d42c56af54ecaaf92baecc13c8a1
 2010-10-22T19:50:48.262253Z
 19205
 3dentech
@@ -1384,7 +1384,7 @@ has-props
 
 
 
-3885
+493
 
 en-GB.tpl_beez_20.sys.ini
 file
@@ -1420,14 +1420,14 @@ has-props
 
 1146
 
-en-GB.mod_languages.sys.ini
+en-GB.xml
 file
 
 
 
 
 2011-03-18T19:59:24.000000Z
-1ad0d42c56af54ecaaf92baecc13c8a1
+935b22dd76525fe306bee123e3382530
 2010-10-22T19:50:48.262253Z
 19205
 3dentech
@@ -1452,7 +1452,7 @@ has-props
 
 
 
-493
+3885
 
 en-GB.com_mailto.ini
 file
@@ -1726,40 +1726,6 @@ has-props
 
 698
 
-en-GB.mod_articles_categories.ini
-file
-
-
-
-
-2011-03-18T19:59:24.000000Z
-7b05001ae2119000620983d99b0e0ea5
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1424
-
 en-GB.mod_footer.sys.ini
 file
 
@@ -1793,6 +1759,40 @@ has-props
 
 
 517
+
+en-GB.mod_articles_categories.ini
+file
+
+
+
+
+2011-03-18T19:59:24.000000Z
+7b05001ae2119000620983d99b0e0ea5
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1424
 
 en-GB.mod_weblinks.ini
 file
@@ -1828,40 +1828,6 @@ has-props
 
 1741
 
-en-GB.tpl_rhuk_milkyway.ini
-file
-
-
-
-
-2010-10-27T12:46:11.000000Z
-9953de2c42f995d4fb2c5f109ffe92b0
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1437
-
 en-GB.mod_articles_news.sys.ini
 file
 
@@ -1896,16 +1862,16 @@ has-props
 
 522
 
-en-GB.mod_menu.sys.ini
+en-GB.tpl_rhuk_milkyway.ini
 file
 
 
 
 
-2011-03-18T19:59:24.000000Z
-720da5a2cb2d9e63a0de09efd0976e96
-2010-10-22T19:50:48.262253Z
-19205
+2010-10-27T12:46:11.000000Z
+9953de2c42f995d4fb2c5f109ffe92b0
+2010-10-02T18:53:34.303496Z
+19024
 3dentech
 has-props
 
@@ -1928,7 +1894,7 @@ has-props
 
 
 
-428
+1437
 
 en-GB.mod_related_items.ini
 file
@@ -1963,6 +1929,40 @@ has-props
 
 
 1085
+
+en-GB.mod_menu.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:24.000000Z
+720da5a2cb2d9e63a0de09efd0976e96
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+428
 
 en-GB.mod_search.sys.ini
 file

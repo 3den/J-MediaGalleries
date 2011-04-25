@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/language/xx-XX
 http://joomlacode.org/svn/joomla
 
@@ -613,40 +613,6 @@ has-props
 
 405
 
-xx-XX.mod_login.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-98a7b6b07aa0cddaca572e3639eab8b1
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-703
-
 xx-XX.plg_authentication_gmail.sys.ini
 file
 
@@ -681,17 +647,17 @@ has-props
 
 468
 
-xx-XX.mod_latest.sys.ini
+xx-XX.mod_login.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-f9ed593f75809f2c63f77c764bb6466b
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
+98a7b6b07aa0cddaca572e3639eab8b1
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
 has-props
 
 
@@ -713,7 +679,41 @@ has-props
 
 
 
-515
+703
+
+xx-XX.plg_content_geshi.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+156ca42415e05d0b9d82c735a6ba70a7
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+471
 
 xx-XX.com_content.ini
 file
@@ -749,17 +749,17 @@ has-props
 
 7930
 
-xx-XX.plg_content_geshi.sys.ini
+xx-XX.mod_latest.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-156ca42415e05d0b9d82c735a6ba70a7
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
+f9ed593f75809f2c63f77c764bb6466b
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
 has-props
 
 
@@ -781,7 +781,7 @@ has-props
 
 
 
-471
+515
 
 xx-XX.plg_search_content.sys.ini
 file
@@ -919,17 +919,17 @@ has-props
 
 400
 
-xx-XX.plg_system_sef.ini
+xx-XX.mod_online.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-986acc9853dbb10e105510368cd4f095
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
+0f29caf6261f9c3f5a2b5e667dee1e61
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
 has-props
 
 
@@ -951,7 +951,7 @@ has-props
 
 
 
-464
+456
 
 xx-XX.com_categories.ini
 file
@@ -987,17 +987,17 @@ has-props
 
 4220
 
-xx-XX.mod_online.ini
+xx-XX.plg_system_sef.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-0f29caf6261f9c3f5a2b5e667dee1e61
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
+986acc9853dbb10e105510368cd4f095
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
 has-props
 
 
@@ -1019,7 +1019,7 @@ has-props
 
 
 
-456
+464
 
 xx-XX.com_admin.ini
 file
@@ -2245,40 +2245,6 @@ has-props
 
 456
 
-xx-XX.mod_popular.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-cd623fb65fe5de2fa9d49a2bdabfde84
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1142
-
 xx-XX.plg_authentication_ldap.ini
 file
 
@@ -2312,6 +2278,40 @@ has-props
 
 
 3204
+
+xx-XX.mod_popular.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+cd623fb65fe5de2fa9d49a2bdabfde84
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1142
 
 xx-XX.mod_custom.sys.ini
 file
@@ -2381,40 +2381,6 @@ has-props
 
 421
 
-xx-XX.com_media.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-ab1c122cb64efdd49569c820b909d889
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-384
-
 xx-XX.plg_content_pagebreak.sys.ini
 file
 
@@ -2449,17 +2415,17 @@ has-props
 
 1211
 
-xx-XX.mod_latest.ini
+xx-XX.com_media.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:10.000000Z
-6505ae9937f40c349727f8fa70f46df6
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
+ab1c122cb64efdd49569c820b909d889
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
 has-props
 
 
@@ -2481,7 +2447,7 @@ has-props
 
 
 
-1371
+384
 
 xx-XX.plg_content_geshi.ini
 file
@@ -2516,6 +2482,40 @@ has-props
 
 
 467
+
+xx-XX.mod_latest.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+6505ae9937f40c349727f8fa70f46df6
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1371
 
 xx-XX.plg_authentication_joomla.sys.ini
 file
@@ -2585,40 +2585,6 @@ has-props
 
 948
 
-xx-XX.mod_quickicon.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-d287a95a6418658788a5f26c87ed7135
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-452
-
 xx-XX.plg_search_content.ini
 file
 
@@ -2652,6 +2618,40 @@ has-props
 
 
 792
+
+xx-XX.mod_quickicon.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+d287a95a6418658788a5f26c87ed7135
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+452
 
 xx-XX.mod_feed.ini
 file
@@ -3027,40 +3027,6 @@ has-props
 
 430
 
-xx-XX.plg_system_languagefilter.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-9e9abd1941abc51c1ea2f5de41c1e4cd
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-987
-
 xx-XX.com_users.ini
 file
 
@@ -3095,16 +3061,16 @@ has-props
 
 9626
 
-xx-XX.com_checkin.ini
+xx-XX.plg_system_languagefilter.ini
 file
 
 
 
 
 2011-03-18T19:59:10.000000Z
-3d280063618a274874360afe24b140e1
-2010-06-17T14:39:49.545452Z
-17726
+9e9abd1941abc51c1ea2f5de41c1e4cd
+2010-10-22T19:50:48.262253Z
+19205
 3dentech
 has-props
 
@@ -3127,7 +3093,7 @@ has-props
 
 
 
-701
+987
 
 xx-XX.com_menus.sys.ini
 file
@@ -3162,6 +3128,40 @@ has-props
 
 
 380
+
+xx-XX.com_checkin.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+3d280063618a274874360afe24b140e1
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+701
 
 xx-XX.tpl_hathor.ini
 file
@@ -3299,40 +3299,6 @@ has-props
 
 428
 
-xx-XX.com_wrapper.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-d0e85c61c603fc6e897a05505e47f727
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1652
-
 xx-XX.mod_toolbar.sys.ini
 file
 
@@ -3366,6 +3332,40 @@ has-props
 
 
 445
+
+xx-XX.com_wrapper.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+d0e85c61c603fc6e897a05505e47f727
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1652
 
 xx-XX.mod_feed.sys.ini
 file
@@ -3503,40 +3503,6 @@ has-props
 
 378
 
-xx-XX.plg_user_contactcreator.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-a8ae441b6564c8f7c062a3e2cc9f78c8
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-471
-
 xx-XX.plg_editors-xtd_article.sys.ini
 file
 
@@ -3570,6 +3536,40 @@ has-props
 
 
 518
+
+xx-XX.plg_user_contactcreator.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+a8ae441b6564c8f7c062a3e2cc9f78c8
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+471
 
 xx-XX.tpl_bluestork.ini
 file
@@ -3673,40 +3673,6 @@ has-props
 
 459
 
-xx-XX.mod_logged.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-f64a55725f5f36289d2d8dd6afe870e6
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-764
-
 xx-XX.com_cpanel.ini
 file
 
@@ -3740,6 +3706,40 @@ has-props
 
 
 373
+
+xx-XX.mod_logged.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+f64a55725f5f36289d2d8dd6afe870e6
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+764
 
 xx-XX.plg_editors_tinymce.ini
 file
@@ -3843,40 +3843,6 @@ has-props
 
 569
 
-xx-XX.com_media.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-29f4a27ebade5494fd654a0e9cc72068
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5223
-
 xx-XX.plg_content_pagebreak.ini
 file
 
@@ -3910,6 +3876,40 @@ has-props
 
 
 2169
+
+xx-XX.com_media.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+29f4a27ebade5494fd654a0e9cc72068
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5223
 
 xx-XX.com_checkin.sys.ini
 file
@@ -4285,40 +4285,6 @@ has-props
 
 3068
 
-xx-XX.com_categories.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:10.000000Z
-d6443c940c6d8fc9158bc470e9365b0b
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-396
-
 xx-XX.mod_online.sys.ini
 file
 
@@ -4352,6 +4318,40 @@ has-props
 
 
 419
+
+xx-XX.com_categories.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:10.000000Z
+d6443c940c6d8fc9158bc470e9365b0b
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+396
 
 xx-XX.plg_system_sef.sys.ini
 file

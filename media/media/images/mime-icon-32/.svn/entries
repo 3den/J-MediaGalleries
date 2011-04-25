@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/media/media/images/mime-icon-32
 http://joomlacode.org/svn/joomla
 
@@ -60,40 +60,6 @@ has-props
 
 1340
 
-mp3.png
-file
-
-
-
-
-2011-03-18T20:06:39.000000Z
-a1dd68b8b41bbbfd6ee0147b7dd40715
-2011-03-19T17:10:33.534219Z
-20992
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1615
-
 svg.png
 file
 
@@ -127,6 +93,40 @@ has-props
 
 
 926
+
+mp3.png
+file
+
+
+
+
+2011-03-18T20:06:39.000000Z
+a1dd68b8b41bbbfd6ee0147b7dd40715
+2011-03-19T17:10:33.534219Z
+20992
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1615
 
 mp4.png
 file
@@ -298,40 +298,6 @@ has-props
 
 1091
 
-doc.png
-file
-
-
-
-
-2011-03-18T20:06:53.000000Z
-64751e4b16fc8ab1b61e95f1729d400e
-2011-03-19T17:10:33.534219Z
-20992
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-866
-
 odc.png
 file
 
@@ -366,14 +332,14 @@ has-props
 
 1144
 
-xls.png
+doc.png
 file
 
 
 
 
-2011-03-18T20:06:56.000000Z
-755be8be8f318c4e25c96d9f944d661c
+2011-03-18T20:06:53.000000Z
+64751e4b16fc8ab1b61e95f1729d400e
 2011-03-19T17:10:33.534219Z
 20992
 3dentech
@@ -398,7 +364,7 @@ has-props
 
 
 
-1096
+866
 
 odd.png
 file
@@ -434,14 +400,14 @@ has-props
 
 1309
 
-wmv.png
+xls.png
 file
 
 
 
 
-2011-03-18T20:07:00.000000Z
-43abc037823e08d49ec22aab82220c62
+2011-03-18T20:06:56.000000Z
+755be8be8f318c4e25c96d9f944d661c
 2011-03-19T17:10:33.534219Z
 20992
 3dentech
@@ -466,7 +432,7 @@ has-props
 
 
 
-1272
+1096
 
 pdf.png
 file
@@ -501,6 +467,40 @@ has-props
 
 
 957
+
+wmv.png
+file
+
+
+
+
+2011-03-18T20:07:00.000000Z
+43abc037823e08d49ec22aab82220c62
+2011-03-19T17:10:33.534219Z
+20992
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1272
 
 ogg.png
 file

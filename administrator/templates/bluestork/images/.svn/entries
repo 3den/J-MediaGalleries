@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork/images
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-icon-16-notice-note.png
-file
-
-
-
-
-2010-08-05T17:36:20.000000Z
-fbbb48d8087a78951712f32b488cb6d2
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-589
 
 j_button2_next_off.png
 file
@@ -93,6 +59,40 @@ has-props
 
 
 629
+
+icon-16-notice-note.png
+file
+
+
+
+
+2010-08-05T17:36:20.000000Z
+fbbb48d8087a78951712f32b488cb6d2
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+589
 
 j_crn_bl_light.png
 file
@@ -230,40 +230,6 @@ has-props
 
 253
 
-selector-arrow.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-bf798e95a2da9b71c9cde87d3ab48773
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-299
-
 j_button1_collate.png
 file
 
@@ -297,6 +263,40 @@ has-props
 
 
 1903
+
+selector-arrow.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+bf798e95a2da9b71c9cde87d3ab48773
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+299
 
 notice-info.png
 file
@@ -332,40 +332,6 @@ has-props
 
 2139
 
-j_button1_left.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-fcdf7a752e63f3b1f80815deb0e39a34
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-400
-
 j_header_middle.png
 file
 
@@ -399,6 +365,40 @@ has-props
 
 
 262
+
+j_button1_left.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+fcdf7a752e63f3b1f80815deb0e39a34
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+400
 
 menu
 dir
@@ -437,40 +437,6 @@ has-props
 
 641
 
-notice-download.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-847e31da6f0b968ef0e80fdc0c00c0da
-2010-05-16T00:03:00.740176Z
-17085
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2094
-
 j_button2_right_cap.png
 file
 
@@ -504,6 +470,40 @@ has-props
 
 
 292
+
+notice-download.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+847e31da6f0b968ef0e80fdc0c00c0da
+2010-05-16T00:03:00.740176Z
+17085
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2094
 
 j_button2_pagebreak_rtl.png
 file
@@ -1015,40 +1015,6 @@ has-props
 
 262
 
-notice-alert.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-b6fe6bd6fc7ff173eb44b6a6f10ed3a5
-2010-05-16T00:03:00.740176Z
-17085
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1853
-
 j_crn_tl_black.png
 file
 
@@ -1082,6 +1048,40 @@ has-props
 
 
 207
+
+notice-alert.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+b6fe6bd6fc7ff173eb44b6a6f10ed3a5
+2010-05-16T00:03:00.740176Z
+17085
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1853
 
 arrow.png
 file
@@ -1117,40 +1117,6 @@ has-props
 
 1023
 
-j_crn_tr_black.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-d8edbdc3042e9e0dcbd7d5672b8c8d72
-2009-07-06T01:25:03.028025Z
-12473
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-201
-
 j_header_left_rtl.png
 file
 
@@ -1184,6 +1150,40 @@ has-props
 
 
 331
+
+j_crn_tr_black.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+d8edbdc3042e9e0dcbd7d5672b8c8d72
+2009-07-06T01:25:03.028025Z
+12473
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+201
 
 j_joomla_box.jpg
 file
@@ -1253,8 +1253,39 @@ has-props
 
 2661
 
-system
-dir
+j_crn_tr_dark.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+b69f9e8c5ec170be5f2aebfa034d11e0
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+259
 
 j_button1_prev.png
 file
@@ -1290,39 +1321,8 @@ has-props
 
 1915
 
-j_crn_tr_dark.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-b69f9e8c5ec170be5f2aebfa034d11e0
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-259
+system
+dir
 
 j_button1_right.png
 file
@@ -1834,40 +1834,6 @@ has-props
 
 764
 
-j_arrow.png
-file
-
-
-
-
-2011-01-20T16:08:10.000000Z
-9d07238dc80e920102937c582633d186
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-240
-
 j_crn_br_med.png
 file
 
@@ -1901,6 +1867,40 @@ has-props
 
 
 256
+
+j_arrow.png
+file
+
+
+
+
+2011-01-20T16:08:10.000000Z
+9d07238dc80e920102937c582633d186
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+240
 
 j_crn_bl_black.png
 file
@@ -1936,10 +1936,10 @@ has-props
 
 206
 
-admin
+header
 dir
 
-header
+admin
 dir
 
 j_button2_first_off.png
@@ -1976,40 +1976,6 @@ has-props
 
 633
 
-calendar.png
-file
-
-
-
-
-2011-01-20T16:08:09.000000Z
-2821452bdbd313c33ea3fb0745849a39
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-662
-
 j_crn_bl_dark.png
 file
 
@@ -2043,6 +2009,40 @@ has-props
 
 
 252
+
+calendar.png
+file
+
+
+
+
+2011-01-20T16:08:09.000000Z
+2821452bdbd313c33ea3fb0745849a39
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+662
 
 j_crn_br_black.png
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/beez_20/images
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-slider_minus.png
-file
-
-
-
-
-2011-01-20T16:08:42.000000Z
-c08bbfed0538c19ee2b98a5f1e9fccc9
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3522
 
 news.gif
 file
@@ -93,6 +59,40 @@ has-props
 
 
 149
+
+slider_minus.png
+file
+
+
+
+
+2011-01-20T16:08:42.000000Z
+c08bbfed0538c19ee2b98a5f1e9fccc9
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3522
 
 header-bg.gif
 file
@@ -131,9 +131,6 @@ has-props
 personal
 dir
 
-system
-dir
-
 all_bg.gif
 file
 
@@ -167,6 +164,9 @@ has-props
 
 
 143
+
+system
+dir
 
 arrow2_grey.png
 file
@@ -270,40 +270,6 @@ has-props
 
 974
 
-footer_bg.png
-file
-
-
-
-
-2011-01-20T16:08:41.000000Z
-0ede7ae8ab092016b6d7b890d7c1db34
-2010-04-26T01:46:24.406939Z
-16465
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1763
-
 slider_plus_rtl.png
 file
 
@@ -337,6 +303,40 @@ has-props
 
 
 3072
+
+footer_bg.png
+file
+
+
+
+
+2011-01-20T16:08:41.000000Z
+0ede7ae8ab092016b6d7b890d7c1db34
+2010-04-26T01:46:24.406939Z
+16465
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1763
 
 trans.gif
 file

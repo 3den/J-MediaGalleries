@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/hathor
 http://joomlacode.org/svn/joomla
 
@@ -97,39 +97,8 @@ has-props
 language
 dir
 
-component.php
-file
-
-
-
-
-2011-03-18T19:59:21.000000Z
-9f6de569a05786f62c81be3212bcafe9
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2095
+css
+dir
 
 cpanel.php
 file
@@ -165,8 +134,39 @@ has-props
 
 6307
 
-css
-dir
+component.php
+file
+
+
+
+
+2011-03-18T19:59:21.000000Z
+9f6de569a05786f62c81be3212bcafe9
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2095
 
 index.php
 file
@@ -202,40 +202,6 @@ has-props
 
 6273
 
-favicon.ico
-file
-
-
-
-
-2011-01-20T16:08:13.000000Z
-8894791e84f5cafebd47311d14a3703c
-2010-05-03T20:00:47.928439Z
-16708
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1150
-
 login.php
 file
 
@@ -269,6 +235,40 @@ has-props
 
 
 3556
+
+favicon.ico
+file
+
+
+
+
+2011-01-20T16:08:13.000000Z
+8894791e84f5cafebd47311d14a3703c
+2010-05-03T20:00:47.928439Z
+16708
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1150
 
 template_preview.png
 file
@@ -338,40 +338,6 @@ eddieajau
 
 17816
 
-template_thumbnail.png
-file
-
-
-
-
-2011-01-20T16:08:16.000000Z
-d04f6caba213f48e0ab3879794423e11
-2010-05-03T20:00:47.928439Z
-16708
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21036
-
 params.ini
 file
 
@@ -405,6 +371,40 @@ has-props
 
 
 50
+
+template_thumbnail.png
+file
+
+
+
+
+2011-01-20T16:08:16.000000Z
+d04f6caba213f48e0ab3879794423e11
+2010-05-03T20:00:47.928439Z
+16708
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21036
 
 html
 dir

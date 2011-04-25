@@ -4,21 +4,58 @@
  * and open the template in the editor.
  */
 
+class MediaType{
+    
+    /**
+     * @var String 
+     */
+    protected $media;
 
+    /**
+     * @var Array genearated by JParams
+     */
+    protected $params;
 
-abstract class MediaType{
-	
-	/**
-	 * get the code
-	 * Enter description here ...
-	 * @param $media
-	 */
-    public function getMedia($media='', $width='', $height='', $params=array()){
+    /**
+     * Constructor
+     * @param String $media Media Url
+     * @param Array $params
+     */
+    public function MediaType($media, $params){
+        $this->media  = $media;
+        $this->params = $params;
+    }
+    
+    /**
+     * get the code
+     * Enter description here ...
+     * @param $media
+     */
+    public function getMedia(){
     	
-    	return 'Invalid Server';
+    	return 'Invalid Media: ' . $this->media;
     }
 
-    public function html4Player( $video,$params ){
+    /**
+     *
+     * Enter description here ...
+     * @param unknown_type $media
+     * @param unknown_type $width
+     * @param unknown_type $height
+     * @param unknown_type $params
+     */
+    public function getThumb(){
+    	return "<img src='".$this->media."'".
+                    "style='".$this->params['thumb_width']." ".$this->params['thumb_height']."' >";
+    }
+
+    /**
+     * Play videos using the HTML4 aproach
+     * @param <type> $video
+     * @param <type> $params
+     * @return <type>
+     */
+    protected function html4Player($video, $params){
 	return 	'<object '. $params['a'] .' class="mediagalleries" style="'.$params['width'] . $params['height'].'" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">'
 		. '<param name="movie" value="'. $video .'" />'
 		. '<param name="wmode" value="transparent" />'
@@ -36,21 +73,5 @@ abstract class MediaType{
 			. '</object>'
 		. '<!--<![endif]-->'
 	.'</object>';
-    }
-
-
-    /**
-     * 
-     * Enter description here ...
-     * @param unknown_type $media
-     * @param unknown_type $width
-     * @param unknown_type $height
-     * @param unknown_type $params
-     */
-    public function getThumb($media='', $width='', $height='', $params=array()){
-    	
-    	return '<img scr="defaultimag">';
-    }
-    
+    }    
 }
-?>

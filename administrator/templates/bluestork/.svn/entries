@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork
 http://joomlacode.org/svn/joomla
 
@@ -97,39 +97,8 @@ has-props
 language
 dir
 
-component.php
-file
-
-
-
-
-2011-03-18T19:59:22.000000Z
-d52f7501a71e57251d6b95d4379bb790
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1170
+css
+dir
 
 cpanel.php
 file
@@ -165,8 +134,39 @@ has-props
 
 4618
 
-css
-dir
+component.php
+file
+
+
+
+
+2011-03-18T19:59:22.000000Z
+d52f7501a71e57251d6b95d4379bb790
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1170
 
 index.php
 file
@@ -202,40 +202,6 @@ has-props
 
 4956
 
-favicon.ico
-file
-
-
-
-
-2011-01-20T16:08:09.000000Z
-8894791e84f5cafebd47311d14a3703c
-2009-09-01T00:01:11.986902Z
-12669
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1150
-
 login.php
 file
 
@@ -269,6 +235,40 @@ has-props
 
 
 3261
+
+favicon.ico
+file
+
+
+
+
+2011-01-20T16:08:09.000000Z
+8894791e84f5cafebd47311d14a3703c
+2009-09-01T00:01:11.986902Z
+12669
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1150
 
 template_preview.png
 file
@@ -304,40 +304,6 @@ has-props
 
 101997
 
-params.ini
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-45de8b22110ff75236a683c813dc01cf
-2009-08-13T14:28:31.222864Z
-12633
-erdsiger
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-59
-
 template_thumbnail.png
 file
 
@@ -371,6 +337,40 @@ has-props
 
 
 20426
+
+params.ini
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+45de8b22110ff75236a683c813dc01cf
+2009-08-13T14:28:31.222864Z
+12633
+erdsiger
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59
 
 html
 dir

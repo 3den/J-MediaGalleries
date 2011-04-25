@@ -30,7 +30,7 @@
         <fields name="params">
             <fieldset name="basic">
                 <!-- Make everything multilanguage -->
-                <field name="defaultdir"
+                <field name="default_path"
 					type="text" 
 					size="20" 
 					default="images/stories/" 
@@ -62,14 +62,14 @@
                 </field>
             </fieldset>
             <fieldset name="thumbnails" label="Thumbnails">
-                <field name="thumbwidth"
+                <field name="thumb_width"
 					type="text"
 					default="160" 
 					size="20" 
 					label="PLG_CONTENT_MEDIA_THUMB_WIDTH_LABEL"
 					description="PLG_CONTENT_MEDIA_THUMB_WIDTH_DESC" />
 				
-                <field name="thumbheight"
+                <field name="thumb_height"
 					type="text" 
 					size="5" 
 					default="" 

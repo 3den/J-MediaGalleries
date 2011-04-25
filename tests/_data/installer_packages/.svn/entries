@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/_data/installer_packages
 http://joomlacode.org/svn/joomla
 
@@ -29,19 +29,19 @@ http://joomlacode.org/svn/joomla
 files_test1
 dir
 
-com_alpha
+lng_xx-XX.admin
 dir
 
-lng_xx-XX.admin
+com_alpha
 dir
 
 mod_alpha
 dir
 
-pkg_everything
+tpl-test-3-folder
 dir
 
-tpl-test-3-folder
+pkg_everything
 dir
 
 com_delta
@@ -50,10 +50,10 @@ dir
 tpl-test-1-filename
 dir
 
-plg_system_alpha
+tpl-test-5-media
 dir
 
-tpl-test-5-media
+plg_system_alpha
 dir
 
 lng_xx-XX

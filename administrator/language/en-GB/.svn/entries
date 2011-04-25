@@ -1,7 +1,7 @@
 10
 
 dir
-20997
+21163
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/language/en-GB
 http://joomlacode.org/svn/joomla
 
@@ -511,40 +511,6 @@ has-props
 
 9722
 
-en-GB.com_messages.ini
-file
-
-
-
-
-2011-03-18T19:59:08.000000Z
-6c37efe58286bbc647a12095808274b8
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3260
-
 en-GB.plg_content_pagenavigation.sys.ini
 file
 
@@ -579,17 +545,17 @@ has-props
 
 492
 
-en-GB.plg_search_newsfeeds.ini
+en-GB.com_messages.ini
 file
 
 
 
 
 2011-03-18T19:59:08.000000Z
-b5945e60578d2114f35ac9823ebfade8
-2010-05-14T11:05:49.108870Z
-17047
-infograf768
+6c37efe58286bbc647a12095808274b8
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
 has-props
 
 
@@ -611,7 +577,7 @@ has-props
 
 
 
-601
+3260
 
 en-GB.plg_editors-xtd_image.ini
 file
@@ -647,6 +613,40 @@ has-props
 
 572
 
+en-GB.plg_search_newsfeeds.ini
+file
+
+
+
+
+2011-03-18T19:59:08.000000Z
+b5945e60578d2114f35ac9823ebfade8
+2010-05-14T11:05:49.108870Z
+17047
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+601
+
 en-GB.plg_content_media.ini
 file
 
@@ -681,40 +681,6 @@ has-props
 
 4279
 
-en-GB.com_media.ini
-file
-
-
-
-
-2011-03-18T19:59:08.000000Z
-29f4a27ebade5494fd654a0e9cc72068
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5223
-
 en-GB.plg_content_pagebreak.ini
 file
 
@@ -748,6 +714,40 @@ has-props
 
 
 2170
+
+en-GB.com_media.ini
+file
+
+
+
+
+2011-03-18T19:59:08.000000Z
+29f4a27ebade5494fd654a0e9cc72068
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5223
 
 en-GB.com_checkin.sys.ini
 file
@@ -851,40 +851,6 @@ has-props
 
 430
 
-en-GB.com_banners.ini
-file
-
-
-
-
-2011-03-18T19:59:08.000000Z
-12056c3a20f551f9a0fe0a382d75bee4
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11268
-
 en-GB.plg_content_vote.sys.ini
 file
 
@@ -918,6 +884,40 @@ has-props
 
 
 408
+
+en-GB.com_banners.ini
+file
+
+
+
+
+2011-03-18T19:59:08.000000Z
+12056c3a20f551f9a0fe0a382d75bee4
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11268
 
 en-GB.com_wrapper.sys.ini
 file
@@ -953,40 +953,6 @@ has-props
 
 590
 
-en-GB.plg_system_debug.ini
-file
-
-
-
-
-2011-03-18T19:59:08.000000Z
-ad326bb52e8097d765bc0bd6db091bf1
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3073
-
 en-GB.com_plugins.sys.ini
 file
 
@@ -1020,6 +986,40 @@ has-props
 
 
 397
+
+en-GB.plg_system_debug.ini
+file
+
+
+
+
+2011-03-18T19:59:08.000000Z
+ad326bb52e8097d765bc0bd6db091bf1
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3073
 
 en-GB.plg_content_emailcloak.ini
 file
@@ -2143,40 +2143,6 @@ has-props
 
 439
 
-en-GB.mod_title.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-b2ec8075755c50bd8e60552a88eb2507
-2010-02-14T04:28:59.673130Z
-14848
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-388
-
 en-GB.mod_menu.sys.ini
 file
 
@@ -2210,6 +2176,40 @@ has-props
 
 
 404
+
+en-GB.mod_title.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+b2ec8075755c50bd8e60552a88eb2507
+2010-02-14T04:28:59.673130Z
+14848
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+388
 
 en-GB.plg_search_weblinks.sys.ini
 file
@@ -2347,40 +2347,6 @@ has-props
 
 430
 
-en-GB.mod_popular.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-cb6629d79f81d438046d7d46b9e3c1df
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-522
-
 en-GB.plg_authentication_ldap.sys.ini
 file
 
@@ -2415,17 +2381,18 @@ has-props
 
 440
 
-en-GB.tpl_hathor.ini
+en-GB.mod_popular.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-ce0eecceaf9b8d1db0037230a0b3130d
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
+cb6629d79f81d438046d7d46b9e3c1df
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
+has-props
 
 
 
@@ -2446,8 +2413,7 @@ ce0eecceaf9b8d1db0037230a0b3130d
 
 
 
-
-1498
+522
 
 en-GB.plg_system_remember.ini
 file
@@ -2483,6 +2449,40 @@ has-props
 
 405
 
+en-GB.tpl_hathor.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+ce0eecceaf9b8d1db0037230a0b3130d
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1498
+
 en-GB.mod_login.ini
 file
 
@@ -2517,40 +2517,6 @@ has-props
 
 703
 
-en-GB.com_content.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-67c2dc0a0689ebdc958504845e3b2b53
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7947
-
 en-GB.plg_content_geshi.sys.ini
 file
 
@@ -2584,6 +2550,40 @@ has-props
 
 
 474
+
+en-GB.com_content.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+67c2dc0a0689ebdc958504845e3b2b53
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7947
 
 en-GB.plg_content_vote.ini
 file
@@ -2653,40 +2653,6 @@ has-props
 
 428
 
-en-GB.mod_feed.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-843d957caae4d3bb65d41e932f50f758
-2010-05-14T11:05:49.108870Z
-17047
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-405
-
 en-GB.com_plugins.ini
 file
 
@@ -2720,6 +2686,40 @@ has-props
 
 
 1986
+
+en-GB.mod_feed.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+843d957caae4d3bb65d41e932f50f758
+2010-05-14T11:05:49.108870Z
+17047
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+405
 
 en-GB.com_languages.sys.ini
 file
@@ -2789,40 +2789,6 @@ file
 
 566
 
-en-GB.com_admin.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-2de2b836db5b39cc7f77fa997c8b6f7a
-2010-05-16T17:32:07.169927Z
-17107
-chrisdavenport
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7298
-
 en-GB.plg_editors-xtd_readmore.ini
 file
 
@@ -2856,6 +2822,40 @@ has-props
 
 
 696
+
+en-GB.com_admin.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+2de2b836db5b39cc7f77fa997c8b6f7a
+2010-05-16T17:32:07.169927Z
+17107
+chrisdavenport
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7298
 
 en-GB.plg_system_log.ini
 file
@@ -2959,18 +2959,17 @@ has-props
 
 9226
 
-en-GB.com_templates.ini
+en-GB.plg_system_logout.sys.ini
 file
 
 
 
 
-2011-03-18T19:59:09.000000Z
-f2c03cc5c7a2f56267d4e4a963fef93e
-2010-10-02T18:53:34.303496Z
-19024
+2011-01-20T16:08:07.000000Z
+d6874d6b67f2dc14213069525f7f725a
+2011-03-19T17:31:34.352764Z
+20994
 3dentech
-has-props
 
 
 
@@ -2991,41 +2990,8 @@ has-props
 
 
 
-5247
-
-en-GB.plg_authentication_example.ini
-file
 
-
-
-
-2011-03-18T19:59:09.000000Z
-36c60259bc2390b7100929cb02bc1219
-2010-02-14T04:54:48.103024Z
-14849
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-469
+508
 
 en-GB.plg_authentication_openid.sys.ini
 file
@@ -3061,17 +3027,52 @@ has-props
 
 439
 
-en-GB.plg_system_logout.sys.ini
+en-GB.plg_authentication_example.ini
 file
 
 
 
 
-2011-01-20T16:08:07.000000Z
-d6874d6b67f2dc14213069525f7f725a
-2011-03-19T17:31:34.352764Z
-20994
+2011-03-18T19:59:09.000000Z
+36c60259bc2390b7100929cb02bc1219
+2010-02-14T04:54:48.103024Z
+14849
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+469
+
+en-GB.com_templates.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+f2c03cc5c7a2f56267d4e4a963fef93e
+2010-10-02T18:53:34.303496Z
+19024
 3dentech
+has-props
 
 
 
@@ -3092,8 +3093,7 @@ d6874d6b67f2dc14213069525f7f725a
 
 
 
-
-508
+5247
 
 en-GB.mod_title.sys.ini
 file
@@ -3163,40 +3163,6 @@ has-props
 
 462
 
-en-GB.mod_logged.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-f64a55725f5f36289d2d8dd6afe870e6
-2010-05-14T11:05:49.108870Z
-17047
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-767
-
 en-GB.com_cpanel.ini
 file
 
@@ -3230,6 +3196,40 @@ has-props
 
 
 377
+
+en-GB.mod_logged.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+f64a55725f5f36289d2d8dd6afe870e6
+2010-05-14T11:05:49.108870Z
+17047
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+767
 
 en-GB.ini
 file
@@ -3299,40 +3299,6 @@ has-props
 
 603
 
-en-GB.mod_custom.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-52be89fb56e790d0e9a82a0d9d709da5
-2010-02-14T04:28:59.673130Z
-14848
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-590
-
 en-GB.plg_editors-xtd_pagebreak.ini
 file
 
@@ -3367,16 +3333,16 @@ has-props
 
 594
 
-en-GB.plg_system_languagefilter.sys.ini
+en-GB.mod_custom.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-2040ee044433cde3dad80c7f8789496e
-2010-05-14T14:05:58.716331Z
-17052
+52be89fb56e790d0e9a82a0d9d709da5
+2010-02-14T04:28:59.673130Z
+14848
 infograf768
 has-props
 
@@ -3399,7 +3365,7 @@ has-props
 
 
 
-478
+590
 
 en-GB.com_users.sys.ini
 file
@@ -3435,17 +3401,18 @@ has-props
 
 1400
 
-en-GB.plg_content_joomla.ini
+en-GB.plg_system_languagefilter.sys.ini
 file
 
 
 
 
-2011-01-20T16:08:07.000000Z
-c21fe4efd923666bbc5f4ed3ab92f2e4
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
+2011-03-18T19:59:09.000000Z
+2040ee044433cde3dad80c7f8789496e
+2010-05-14T14:05:58.716331Z
+17052
+infograf768
+has-props
 
 
 
@@ -3466,8 +3433,7 @@ c21fe4efd923666bbc5f4ed3ab92f2e4
 
 
 
-
-876
+478
 
 en-GB.mod_submenu.ini
 file
@@ -3503,6 +3469,40 @@ has-props
 
 407
 
+en-GB.plg_content_joomla.ini
+file
+
+
+
+
+2011-01-20T16:08:07.000000Z
+c21fe4efd923666bbc5f4ed3ab92f2e4
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+876
+
 en-GB.com_config.sys.ini
 file
 
@@ -3536,74 +3536,6 @@ has-props
 
 
 383
-
-en-GB.tpl_hathor.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-bf64ae9183ef244d572a9e022330212d
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-508
-
-en-GB.plg_user_joomla.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-217cd455bbea538d2966aff969cd93ac
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-948
 
 en-GB.plg_system_remember.sys.ini
 file
@@ -3639,16 +3571,16 @@ has-props
 
 409
 
-en-GB.com_mediagalleries.sys.ini
+en-GB.plg_user_joomla.ini
 file
 
 
 
 
-2010-08-19T17:32:18.000000Z
-5f3441d080b764e42468c8b67144d4b4
-2010-08-19T18:00:03.160733Z
-18532
+2011-03-18T19:59:09.000000Z
+217cd455bbea538d2966aff969cd93ac
+2010-10-02T18:53:34.303496Z
+19024
 3dentech
 has-props
 
@@ -3671,7 +3603,75 @@ has-props
 
 
 
-1610
+948
+
+en-GB.tpl_hathor.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+bf64ae9183ef244d572a9e022330212d
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+508
+
+en-GB.plg_authentication_joomla.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+bf70c7700989e127e4a714278dcc44d2
+2010-02-14T04:54:48.103024Z
+14849
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+442
 
 en-GB.mod_status.ini
 file
@@ -3707,17 +3707,17 @@ has-props
 
 1108
 
-en-GB.plg_authentication_joomla.ini
+en-GB.com_mediagalleries.sys.ini
 file
 
 
 
 
-2011-03-18T19:59:09.000000Z
-bf70c7700989e127e4a714278dcc44d2
-2010-02-14T04:54:48.103024Z
-14849
-infograf768
+2010-08-19T17:32:18.000000Z
+5f3441d080b764e42468c8b67144d4b4
+2010-08-19T18:00:03.160733Z
+18532
+3dentech
 has-props
 
 
@@ -3739,7 +3739,7 @@ has-props
 
 
 
-442
+1610
 
 en-GB.mod_quickicon.ini
 file
@@ -3911,14 +3911,14 @@ has-props
 
 3069
 
-en-GB.plg_system_sef.sys.ini
+en-GB.mod_online.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-986acc9853dbb10e105510368cd4f095
+56f50000df9d9490b2b7c77e706d3ec0
 2010-04-20T04:13:25.422237Z
 16235
 pasamio
@@ -3943,7 +3943,7 @@ has-props
 
 
 
-468
+419
 
 en-GB.com_categories.sys.ini
 file
@@ -3979,14 +3979,14 @@ has-props
 
 396
 
-en-GB.mod_online.sys.ini
+en-GB.plg_system_sef.sys.ini
 file
 
 
 
 
 2011-03-18T19:59:09.000000Z
-56f50000df9d9490b2b7c77e706d3ec0
+986acc9853dbb10e105510368cd4f095
 2010-04-20T04:13:25.422237Z
 16235
 pasamio
@@ -4011,75 +4011,7 @@ has-props
 
 
 
-419
-
-en-GB.com_admin.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-c2cbd1afcd022901347ff70a0bc09af2
-2010-04-21T18:47:28.622395Z
-16306
-louis
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-393
-
-en-GB.mod_menu.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-a7fc789711e708c26086e274218d198e
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3031
+468
 
 en-GB.plg_editors-xtd_readmore.sys.ini
 file
@@ -4115,6 +4047,74 @@ has-props
 
 489
 
+en-GB.mod_menu.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+a7fc789711e708c26086e274218d198e
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3031
+
+en-GB.com_admin.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+c2cbd1afcd022901347ff70a0bc09af2
+2010-04-21T18:47:28.622395Z
+16306
+louis
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+393
+
 en-GB.plg_search_weblinks.ini
 file
 
@@ -4148,40 +4148,6 @@ has-props
 
 
 601
-
-en-GB.tpl_bluestork.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-53d782b066aa198ce1b27aa985080747
-2010-05-17T06:46:28.574173Z
-17135
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-404
 
 en-GB.com_login.ini
 file
@@ -4217,6 +4183,40 @@ has-props
 
 605
 
+en-GB.tpl_bluestork.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+53d782b066aa198ce1b27aa985080747
+2010-05-17T06:46:28.574173Z
+17135
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+404
+
 en-GB.plg_system_redirect.ini
 file
 
@@ -4251,40 +4251,6 @@ has-props
 
 477
 
-en-GB.com_templates.sys.ini
-file
-
-
-
-
-2011-03-18T19:59:09.000000Z
-209cc5d611ed8bde8a0213a1ea59be88
-2010-05-14T11:05:49.108870Z
-17047
-infograf768
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-407
-
 en-GB.plg_authentication_example.sys.ini
 file
 
@@ -4318,6 +4284,40 @@ has-props
 
 
 469
+
+en-GB.com_templates.sys.ini
+file
+
+
+
+
+2011-03-18T19:59:09.000000Z
+209cc5d611ed8bde8a0213a1ea59be88
+2010-05-14T11:05:49.108870Z
+17047
+infograf768
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+407
 
 en-GB.com_weblinks.ini
 file
