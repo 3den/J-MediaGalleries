@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/libraries/joomla
 http://joomlacode.org/svn/joomla
 
@@ -32,19 +32,16 @@ dir
 mail
 dir
 
-language
+session
 dir
 
-session
+language
 dir
 
 filesystem
 dir
 
 filter
-dir
-
-error
 dir
 
 methods.php
@@ -81,6 +78,9 @@ has-props
 
 9248
 
+error
+dir
+
 config.php
 file
 
@@ -115,6 +115,9 @@ has-props
 
 900
 
+installer
+dir
+
 factory.php
 file
 
@@ -148,9 +151,6 @@ has-props
 
 
 16399
-
-installer
-dir
 
 plugin
 dir

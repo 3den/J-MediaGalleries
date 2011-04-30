@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/beez5/images
 http://joomlacode.org/svn/joomla
 
@@ -573,40 +573,6 @@ has-props
 
 1700
 
-arrow2.gif
-file
-
-
-
-
-2011-01-20T16:08:40.000000Z
-04ea6431e751bf8e64e4bcf789212844
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-108
-
 news.gif
 file
 
@@ -640,6 +606,40 @@ has-props
 
 
 149
+
+arrow2.gif
+file
+
+
+
+
+2011-01-20T16:08:40.000000Z
+04ea6431e751bf8e64e4bcf789212844
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+108
 
 content_bg.gif
 file
@@ -743,40 +743,6 @@ has-props
 
 91511
 
-box1.png
-file
-
-
-
-
-2011-01-20T16:08:40.000000Z
-d9d4bd882ade3aefaf50c852e836675f
-2010-06-17T14:39:49.545452Z
-17726
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-236
-
 tabs_back.png
 file
 
@@ -810,6 +776,40 @@ has-props
 
 
 5754
+
+box1.png
+file
+
+
+
+
+2011-01-20T16:08:40.000000Z
+d9d4bd882ade3aefaf50c852e836675f
+2010-06-17T14:39:49.545452Z
+17726
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+236
 
 nav_level_1.gif
 file

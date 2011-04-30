@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/components
 http://joomlacode.org/svn/joomla
 
@@ -38,10 +38,10 @@ dir
 com_menus
 dir
 
-com_admin
+com_banners
 dir
 
-com_banners
+com_admin
 dir
 
 com_contact
@@ -53,10 +53,10 @@ dir
 com_templates
 dir
 
-com_users
+com_redirect
 dir
 
-com_redirect
+com_users
 dir
 
 com_cpanel

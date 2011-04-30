@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/components/com_media
 http://joomlacode.org/svn/joomla
 
@@ -248,9 +248,6 @@ has-props
 
 2080
 
-tables
-dir
-
 index.html
 file
 
@@ -284,6 +281,9 @@ has-props
 
 
 26
+
+tables
+dir
 
 media.xml
 file

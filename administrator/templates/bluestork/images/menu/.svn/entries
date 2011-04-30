@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork/images/menu
 http://joomlacode.org/svn/joomla
 
@@ -60,40 +60,6 @@ has-props
 
 359
 
-icon-16-language.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-c68c944efcbdf4c2da16d9d05e5278dc
-2009-07-06T00:41:03.270686Z
-12471
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-803
-
 icon-16-article.png
 file
 
@@ -128,17 +94,17 @@ has-props
 
 590
 
-icon-16-links-cat.png
+icon-16-language.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-72255a7f8e97a8b4f427ae0b416b26d1
-2010-05-17T06:30:14.482864Z
-17133
-severdia
+c68c944efcbdf4c2da16d9d05e5278dc
+2009-07-06T00:41:03.270686Z
+12471
+eddieajau
 has-props
 
 
@@ -160,7 +126,7 @@ has-props
 
 
 
-630
+803
 
 icon-16-themes.png
 file
@@ -196,16 +162,16 @@ has-props
 
 470
 
-icon-16-newsfeeds-cat.png
+icon-16-links-cat.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-8cb3e5792351b9fa9f17d02ecc9e4e1d
-2009-10-17T22:52:35.120049Z
-13221
+72255a7f8e97a8b4f427ae0b416b26d1
+2010-05-17T06:30:14.482864Z
+17133
 severdia
 has-props
 
@@ -228,18 +194,18 @@ has-props
 
 
 
-599
+630
 
-icon-16-help-jed.png
+icon-16-read-privatemessage.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-e3daac59ec11de1f32f4384d65f2f235
-2009-07-27T07:17:05.600413Z
-12571
+9f41b070a20e27235ec9335a7de4b3a4
+2010-05-10T06:26:51.405104Z
+16933
 severdia
 has-props
 
@@ -262,7 +228,7 @@ has-props
 
 
 
-505
+787
 
 icon-16-banner-categories.png
 file
@@ -298,16 +264,16 @@ has-props
 
 648
 
-icon-16-read-privatemessage.png
+icon-16-help-jed.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-9f41b070a20e27235ec9335a7de4b3a4
-2010-05-10T06:26:51.405104Z
-16933
+e3daac59ec11de1f32f4384d65f2f235
+2009-07-27T07:17:05.600413Z
+12571
 severdia
 has-props
 
@@ -330,7 +296,41 @@ has-props
 
 
 
-787
+505
+
+icon-16-newsfeeds-cat.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+8cb3e5792351b9fa9f17d02ecc9e4e1d
+2009-10-17T22:52:35.120049Z
+13221
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+599
 
 icon-16-send.png
 file
@@ -1080,40 +1080,6 @@ has-props
 
 816
 
-icon-16-featured.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-8ecc559a086a358754aa5994bbfb6910
-2010-05-16T07:45:51.168578Z
-17088
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-615
-
 icon-16-viewsite.png
 file
 
@@ -1147,6 +1113,40 @@ has-props
 
 
 349
+
+icon-16-featured.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+8ecc559a086a358754aa5994bbfb6910
+2010-05-16T07:45:51.168578Z
+17088
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+615
 
 icon-16-readmess.png
 file
@@ -1216,16 +1216,16 @@ has-props
 
 584
 
-icon-16-newgroup.png
+icon-16-install.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-8456d5f01528b257b452139eed2f467f
-2009-07-06T06:46:59.278574Z
-12485
+db129060ae5efb8cc0f42cd238c9efa7
+2009-07-06T00:41:03.270686Z
+12471
 eddieajau
 has-props
 
@@ -1248,7 +1248,7 @@ has-props
 
 
 
-862
+566
 
 icon-16-new-privatemessage.png
 file
@@ -1284,16 +1284,16 @@ has-props
 
 657
 
-icon-16-install.png
+icon-16-newgroup.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-db129060ae5efb8cc0f42cd238c9efa7
-2009-07-06T00:41:03.270686Z
-12471
+8456d5f01528b257b452139eed2f467f
+2009-07-06T06:46:59.278574Z
+12485
 eddieajau
 has-props
 
@@ -1316,7 +1316,7 @@ has-props
 
 
 
-566
+862
 
 icon-16-calendar.png
 file
@@ -1522,40 +1522,6 @@ has-props
 
 468
 
-icon-16-levels.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-4612aae1a6c115dd0edb82c32c3d682b
-2009-07-06T06:46:59.278574Z
-12485
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-320
-
 icon-16-banner-tracks.png
 file
 
@@ -1589,6 +1555,40 @@ has-props
 
 
 659
+
+icon-16-levels.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+4612aae1a6c115dd0edb82c32c3d682b
+2009-07-06T06:46:59.278574Z
+12485
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+320
 
 icon-16-user-dd.png
 file
@@ -1658,40 +1658,6 @@ has-props
 
 453
 
-icon-16-banner.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-21c1a693374cb6d0bd7b7572f2877abb
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-727
-
 icon-16-search.png
 file
 
@@ -1726,14 +1692,14 @@ has-props
 
 545
 
-icon-16-move.png
+icon-16-banner.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-ed0d920de58582d257201bc7ea2a5108
+21c1a693374cb6d0bd7b7572f2877abb
 2010-05-10T06:26:51.405104Z
 16933
 severdia
@@ -1758,7 +1724,7 @@ has-props
 
 
 
-401
+727
 
 icon-16-massmail.png
 file
@@ -1794,17 +1760,17 @@ has-props
 
 758
 
-icon-16-messages.png
+icon-16-move.png
 file
 
 
 
 
 2011-01-20T16:08:11.000000Z
-8ebd3b5fb182f39665da7f4d75fa32a8
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
+ed0d920de58582d257201bc7ea2a5108
+2010-05-10T06:26:51.405104Z
+16933
+severdia
 has-props
 
 
@@ -1826,7 +1792,7 @@ has-props
 
 
 
-648
+401
 
 icon-16-revert.png
 file
@@ -1862,6 +1828,40 @@ has-props
 
 424
 
+icon-16-messages.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+8ebd3b5fb182f39665da7f4d75fa32a8
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+648
+
 icon-16-logout.png
 file
 
@@ -1896,40 +1896,6 @@ has-props
 
 514
 
-icon-16-menumgr.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-c301030e2f0cb87918b053fb2a86e4da
-2009-07-06T00:41:03.270686Z
-12471
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-591
-
 icon-16-copy.png
 file
 
@@ -1963,6 +1929,40 @@ has-props
 
 
 684
+
+icon-16-menumgr.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+c301030e2f0cb87918b053fb2a86e4da
+2009-07-06T00:41:03.270686Z
+12471
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+591
 
 icon-16-messaging.png
 file
@@ -2066,40 +2066,6 @@ has-props
 
 685
 
-icon-16-archive.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-f58ca402c4e2905176500e9fed4bf8b8
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-589
-
 icon-16-preview.png
 file
 
@@ -2133,6 +2099,40 @@ has-props
 
 
 372
+
+icon-16-archive.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+f58ca402c4e2905176500e9fed4bf8b8
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+589
 
 icon-16-purge.png
 file

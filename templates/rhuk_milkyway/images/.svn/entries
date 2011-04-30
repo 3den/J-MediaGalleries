@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/rhuk_milkyway/images
 http://joomlacode.org/svn/joomla
 
@@ -409,6 +409,9 @@ has-props
 orange
 dir
 
+black
+dir
+
 mw_content_b_l.png
 file
 
@@ -443,8 +446,39 @@ has-props
 
 320
 
-black
-dir
+mw_readon_rtl.png
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+f80f9063830ac81dde98bd8d81774c5b
+2009-05-27T22:47:11.904324Z
+11842
+robs
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+301
 
 mw_header_b.png
 file
@@ -479,40 +513,6 @@ has-props
 
 
 239
-
-mw_readon_rtl.png
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-f80f9063830ac81dde98bd8d81774c5b
-2009-05-27T22:47:11.904324Z
-11842
-robs
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-301
 
 white
 dir
@@ -585,40 +585,6 @@ has-props
 
 384
 
-mw_content_t_l.png
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-19d5fc4fb38edf6ea4157ed9afd242fa
-2009-05-27T22:47:11.904324Z
-11842
-robs
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-329
-
 mw_menu_cap_r.png
 file
 
@@ -652,6 +618,40 @@ has-props
 
 
 709
+
+mw_content_t_l.png
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+19d5fc4fb38edf6ea4157ed9afd242fa
+2009-05-27T22:47:11.904324Z
+11842
+robs
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+329
 
 green
 dir
@@ -758,40 +758,6 @@ has-props
 
 207
 
-mw_content_t_r.png
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-9dd2e7b09001d2a37bc98624ccfe22a3
-2009-05-27T22:47:11.904324Z
-11842
-robs
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-342
-
 mw_footer_separator.png
 file
 
@@ -826,14 +792,14 @@ has-props
 
 209
 
-mw_header.jpg
+mw_content_t_r.png
 file
 
 
 
 
 2010-10-27T12:46:28.000000Z
-eb95b2ee38ee4ca3950e0fe3aecfe7c9
+9dd2e7b09001d2a37bc98624ccfe22a3
 2009-05-27T22:47:11.904324Z
 11842
 robs
@@ -858,7 +824,7 @@ has-props
 
 
 
-10595
+342
 
 mw_menu_separator.png
 file
@@ -893,6 +859,40 @@ has-props
 
 
 225
+
+mw_header.jpg
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+eb95b2ee38ee4ca3950e0fe3aecfe7c9
+2009-05-27T22:47:11.904324Z
+11842
+robs
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10595
 
 index.html
 file

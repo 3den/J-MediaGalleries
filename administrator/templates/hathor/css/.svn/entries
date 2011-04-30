@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/hathor/css
 http://joomlacode.org/svn/joomla
 
@@ -60,40 +60,6 @@ has-props
 
 1257
 
-colour_blue_rtl.css
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-054cbf3eeb59d2a2ac369fbdc9828e95
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9020
-
 colour_brown_rtl.css
 file
 
@@ -127,6 +93,40 @@ file
 
 
 8862
+
+colour_blue_rtl.css
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+054cbf3eeb59d2a2ac369fbdc9828e95
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9020
 
 template_rtl.css
 file
@@ -264,40 +264,6 @@ has-props
 
 6120
 
-colour_standard_rtl.css
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-abc09d91c3a9a77ea78ad15c80fc8170
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9028
-
 menu.css
 file
 
@@ -331,6 +297,40 @@ has-props
 
 
 5967
+
+colour_standard_rtl.css
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+abc09d91c3a9a77ea78ad15c80fc8170
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9028
 
 menu2_rtl.css
 file
@@ -366,40 +366,6 @@ has-props
 
 2608
 
-colour_blue.css
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-e64cf0e7f13a9cb99713e3120e8e474a
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-43938
-
 colour_brown.css
 file
 
@@ -433,6 +399,40 @@ bf27fafb7442743a68feb573d221535a
 
 
 39292
+
+colour_blue.css
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+e64cf0e7f13a9cb99713e3120e8e474a
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+43938
 
 template.css
 file

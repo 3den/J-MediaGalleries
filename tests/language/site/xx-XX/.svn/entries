@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/language/site/xx-XX
 http://joomlacode.org/svn/joomla
 
@@ -60,40 +60,6 @@ e2f58456de81a461c5d67cf176d57ad8
 
 698
 
-xx-XX.mod_articles_categories.ini
-file
-
-
-
-
-2011-01-20T16:08:45.000000Z
-8d9fd7ea60800ac85aeb4cb6bb8c0aaa
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1419
-
 xx-XX.mod_footer.sys.ini
 file
 
@@ -127,6 +93,40 @@ file
 
 
 475
+
+xx-XX.mod_articles_categories.ini
+file
+
+
+
+
+2011-01-20T16:08:45.000000Z
+8d9fd7ea60800ac85aeb4cb6bb8c0aaa
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1419
 
 xx-XX.mod_weblinks.ini
 file
@@ -162,40 +162,6 @@ file
 
 1736
 
-xx-XX.mod_articles_news.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:45.000000Z
-961f43767f3707517116bb31a2f2b4e1
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-474
-
 xx-XX.tpl_rhuk_milkyway.ini
 file
 
@@ -230,14 +196,14 @@ a2e0716284d2973ccb5a0bd22f4182f0
 
 1448
 
-xx-XX.mod_menu.sys.ini
+xx-XX.mod_articles_news.sys.ini
 file
 
 
 
 
 2011-01-20T16:08:45.000000Z
-13adf42ef7851109610992049ed4e6d4
+961f43767f3707517116bb31a2f2b4e1
 2011-03-19T17:31:34.352764Z
 20994
 3dentech
@@ -262,7 +228,7 @@ file
 
 
 
-388
+474
 
 xx-XX.mod_related_items.ini
 file
@@ -297,6 +263,40 @@ file
 
 
 1077
+
+xx-XX.mod_menu.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:45.000000Z
+13adf42ef7851109610992049ed4e6d4
+2011-03-19T17:31:34.352764Z
+20994
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+388
 
 xx-XX.mod_search.sys.ini
 file
@@ -1250,16 +1250,16 @@ c8c3784c21445991b14b136a529dcb96
 
 13710
 
-xx-XX.tpl_beez_20.ini
+xx-XX.mod_languages.ini
 file
 
 
 
 
 2011-01-20T16:08:45.000000Z
-6891bace59ce31aa1eae840961ffc191
-2011-03-19T17:31:34.352764Z
-20994
+b12422de80aa9075cd4012b5233d6700
+2011-03-19T17:22:07.457709Z
+20993
 3dentech
 
 
@@ -1282,7 +1282,7 @@ file
 
 
 
-2429
+1623
 
 xx-XX.com_messages.ini
 file
@@ -1318,16 +1318,16 @@ file
 
 529
 
-xx-XX.mod_languages.ini
+xx-XX.tpl_beez_20.ini
 file
 
 
 
 
 2011-01-20T16:08:45.000000Z
-b12422de80aa9075cd4012b5233d6700
-2011-03-19T17:22:07.457709Z
-20993
+6891bace59ce31aa1eae840961ffc191
+2011-03-19T17:31:34.352764Z
+20994
 3dentech
 
 
@@ -1350,7 +1350,7 @@ b12422de80aa9075cd4012b5233d6700
 
 
 
-1623
+2429
 
 xx-XX.mod_custom.ini
 file
@@ -1488,40 +1488,6 @@ file
 
 574
 
-xx-XX.mod_login.sys.ini
-file
-
-
-
-
-2011-01-20T16:08:45.000000Z
-d63c428b4bcb8292e4097b21388a1f0a
-2011-03-19T17:22:07.457709Z
-20993
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-588
-
 xx-XX.mod_articles_popular.sys.ini
 file
 
@@ -1555,6 +1521,40 @@ file
 
 
 489
+
+xx-XX.mod_login.sys.ini
+file
+
+
+
+
+2011-01-20T16:08:45.000000Z
+d63c428b4bcb8292e4097b21388a1f0a
+2011-03-19T17:22:07.457709Z
+20993
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+588
 
 xx-XX.mod_banners.ini
 file
@@ -1760,40 +1760,6 @@ file
 
 480
 
-xx-XX.mod_articles_news.ini
-file
-
-
-
-
-2011-01-20T16:08:45.000000Z
-577194808a870507960fa9b57fb4cb8f
-2011-03-19T17:10:33.534219Z
-20992
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2141
-
 xx-XX.mod_whosonline.sys.ini
 file
 
@@ -1827,6 +1793,40 @@ baf307952a2a7b1c86bb509c20d6aabb
 
 
 527
+
+xx-XX.mod_articles_news.ini
+file
+
+
+
+
+2011-01-20T16:08:45.000000Z
+577194808a870507960fa9b57fb4cb8f
+2011-03-19T17:10:33.534219Z
+20992
+3dentech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2141
 
 xx-XX.mod_menu.ini
 file
@@ -1998,14 +1998,14 @@ file
 
 1605
 
-xx-XX.tpl_beez_20.sys.ini
+xx-XX.xml
 file
 
 
 
 
 2011-01-20T16:08:45.000000Z
-a3ad6854cb26fbab7f494251c395efc4
+f82eb8a885cdb974d28e590daee0225a
 2011-03-19T17:31:34.352764Z
 20994
 3dentech
@@ -2030,7 +2030,7 @@ a3ad6854cb26fbab7f494251c395efc4
 
 
 
-1143
+4001
 
 xx-XX.mod_languages.sys.ini
 file
@@ -2066,14 +2066,14 @@ file
 
 453
 
-xx-XX.xml
+xx-XX.tpl_beez_20.sys.ini
 file
 
 
 
 
 2011-01-20T16:08:45.000000Z
-f82eb8a885cdb974d28e590daee0225a
+a3ad6854cb26fbab7f494251c395efc4
 2011-03-19T17:31:34.352764Z
 20994
 3dentech
@@ -2098,7 +2098,7 @@ f82eb8a885cdb974d28e590daee0225a
 
 
 
-4001
+1143
 
 xx-XX.com_mailto.ini
 file

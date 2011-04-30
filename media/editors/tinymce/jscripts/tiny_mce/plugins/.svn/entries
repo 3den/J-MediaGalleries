@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/media/editors/tinymce/jscripts/tiny_mce/plugins
 http://joomlacode.org/svn/joomla
 
@@ -106,16 +106,16 @@ dir
 directionality
 dir
 
-wordcount
-dir
-
 visualchars
 dir
 
-autosave
+wordcount
 dir
 
 table
+dir
+
+autosave
 dir
 
 advlink

@@ -3,6 +3,7 @@ jimport("joomla.html");
 JHTML::_( 'behavior.modal' ); 
 JHtmlBehavior::modal();
 ?>
+This is some change..
 <div class="mediagallery<?php echo $this->params->get('pageclass_sfx')?>" >
 	<?php //echo $this->thumb; ?>
 	<div class="media"><?php echo $this->media; ?></div>

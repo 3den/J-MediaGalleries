@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/installation/language
 http://joomlacode.org/svn/joomla
 
@@ -68,37 +68,37 @@ dir
 ru-RU
 dir
 
-mk-MK
+es-ES
 dir
 
 fr-FR
 dir
 
-es-ES
+mk-MK
 dir
 
 sq-AL
 dir
 
-de-DE
-dir
-
 bg-BG
 dir
 
-gu-IN
-dir
-
-cs-CZ
+de-DE
 dir
 
 sr-YU
 dir
 
-nl-NL
+cs-CZ
+dir
+
+gu-IN
 dir
 
 da-DK
+dir
+
+nl-NL
 dir
 
 ar-AA
@@ -107,13 +107,13 @@ dir
 uk-UA
 dir
 
-pl-PL
+th-TH
 dir
 
 pt-BR
 dir
 
-th-TH
+pl-PL
 dir
 
 id-ID

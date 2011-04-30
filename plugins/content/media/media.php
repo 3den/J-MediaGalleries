@@ -39,112 +39,79 @@ class plgContentMedia extends JPlugin {
      * @since	1.6
      */
     public function onContentPrepare($context, &$row, &$params, $limitstart) {
-        // Just to check if plg_media may be called or not, for better performance
-        $makeMedia = strpos($row->text, 'media');
-        $makeThumb = strpos($row->text, 'thumb');
-        if ($makeMedia === false && $makeThumb === false) {
+
+        // Regular Expression
+        $regex = '/\{(media|thumb)(.*?)}/i';
+        $total = preg_match_all($regex, $row->text, $matches, PREG_SET_ORDER);
+        if (!$total) {
             return true;
         }
 
-        if ($makeMedia) {
-            // Regular Expression
-            $regex = '/\{media(.*?)}/i';
-            $total = preg_match_all($regex, $row->text, $matches);
+        // Loop
+        for ($x = 0; $x < $total; $x++) {
+            // Params
+            $match = $matches[$x][0];
+            $type = strtolower($matches[$x][1]);
+            $args = $matches[$x][2];
+            $params = clone $this->params;
 
-            // 	Default	->fixed
-            $w = (int)$this->params->def('width', 400);
-            $h = (int)$this->params->def('height', 0 );
-            $ast = (int) $this->params->def('autostart', 0);
+            // General Params // Dumies Prof
+            $parts = preg_replace('/\<.*?\>/', '', $args);
+            $parts = explode(' ', $parts); // Split
+            $media = $parts[0];
 
-            // Loop
-            for ($x = 0; $x < $total; $x++) {
-                // General Params // Dumies Prof
-                $parts = preg_replace('/\<.*?\>/', '', trim($matches[1][$x])); 
-                $parts = explode(' ', $parts); // Split
-                // Default Vaues
-                /*
-                  $width = $w;
-                  $height = ($h > 0)? $h : ($width * 0.7);
-                  $autostart = $ast;
-                 */
-                $width = "";
-                $height = '';
-                $autostart = $ast;
-                // Params
-                $pcount = count($parts);
+            // Params
+            $pcount = count($parts);
 
-                /*                 * Width */
-                if ($pcount > 1) {
-                    $width = (is_numeric($parts[1]) && $parts[1] > 0) ? $parts[1] : $w;
-                    $height = $width * 0.7;
-                }
-
-                /*                 * Height */
-                if ($pcount > 2) {
-                    $height = (is_numeric($parts[2]) && $parts[2] > 0) ? $parts[2] : $h;
-                    $width = ($parts[1]) ? $parts[1] : $height * 1.3;
-                }
-
-                /*                 * autoStart */
-                if ($pcount > 3) {
-                    $autostart = (boolean) $parts[3];
-                }
-
-                // Video Display
-                $media = $this->getMediaObject($parts[0], $params);
-
-                // Put Video inside the content
-                $replace = '<span id="media_' . $x . '" class="media" style="position:relative">'
-                        . $media->getMedia()
-                        . '</span>';
-                $row->text = str_replace($matches[0][$x], $replace, $row->text);
+            // Width
+            if ($pcount > 1) {
+                $width = (is_numeric($parts[1]) && $parts[1] > 0) ? $parts[1] : $w;
+                $height = $width * 0.7;
             }
-        }
 
-        // Thumb not ready
-        if (false) {
-            // Regular Expression
-            $regex = '/\{thumb(.*?)}/i';
-            $total = preg_match_all($regex, $row->text, $matches);
-
-            // 	Default	->fixed
-            $w = (int) $this->params->def('thumbwidth', 160);
-            $h = (int) $this->params->def('thumbheight');
-
-            // Loop
-            for ($x = 0; $x < $total; $x++) {
-                // General Params
-                $parts = preg_replace('/\<.*?\>/', '', trim($matches[1][$x])); // Dumies Prof
-                $parts = explode(' ', $parts); // Split
-                // Default Vaues
-                $width = $w;
-                $height = ($h > 0) ? $h : ($width * 0.7);
-
-                // Params
-                $pcount = count($parts);
-
-                /*                 * Width */
-                if ($pcount > 1) {
-                    $width = (is_numeric($parts[1]) && $parts[1] > 0) ? $parts[1] : $w;
-                    $height = $width * 0.7;
-                }
-
-                /*                 * Height */
-                if ($pcount > 2) {
-                    $height = (is_numeric($parts[2]) && $parts[2] > 0) ? $parts[2] : $h;
-                    $width = ($parts[1]) ? $parts[1] : $height * 1.3;
-                }
-
-                // Video Display
-                $url = $parts[0];
-
-                // Put Video inside the content
-                $thumbnail = self::getThumb($url, $width, $height);
-                $replace = '<span id="thumb_' . $x . '" class="thumb" style="position:relative">'
-                        . '<img src="' . $thumbnail . '" width="' . $width . '" height="' . $height . '">'
-                        . '</span>';
-                $row->text = str_replace($matches[0][$x], $replace, $row->text);
+            // Height
+            if ($pcount > 2) {
+                $height = (is_numeric($parts[2]) && $parts[2] > 0) ? $parts[2] : $h;
+                $width = ($parts[1]) ? $parts[1] : $height * 1.3;
             }
+
+            switch ($type) {
+                case 'media':
+                    // Size
+                    $params->set('width', $width);
+                    $params->set('height', $height);
+
+                    // autoStart
+                    if ($pcount > 3) {
+                        $params->set('autostart', (boolean) $parts[3]);
+                    }
+
+                    // get media Object
+                    $media = $this->getMediaObject($media, $params);
+
+                    // Put Video inside the content
+                    $replace = '<span id="media_' . $x . '" class="'. $params->get('media_class', '') .'" style="position:relative">'
+                            . $media->getMedia()
+                            . '</span>';
+                    break;
+
+                case 'thumb':
+                    // Size
+                    $params->set('thumb_width', $width);
+                    $params->set('thumb_height', $height);
+
+                    // get media Object
+                    $media = $this->getMediaObject($media, $params);
+
+                    // Put Video inside the content
+                    $replace = '<span id="thumb_' . $x . '" class="'. $params->get('thumb_class', '') .'" style="position:relative">'
+                            . $media->getThumb()
+                            . '</span>';
+                    break;
+            }
+
+            // Replace code
+            $row->text = str_replace($match, $replace, $row->text);
         }
 
         return true;
@@ -165,7 +132,13 @@ class plgContentMedia extends JPlugin {
         $item->media = $media->getMedia();
         return true;
     }
-    
+
+    /**
+     * Get the plugin params
+     * 
+     * @deprecated This method is not being used 
+     * @return JRegistry 
+     */
     public static function getParams() {
         $db = JFactory::getDbo();
         $db->setQuery("select params from #__extensions where name='PLG_CONTENT_MEDIA' ");
@@ -183,7 +156,7 @@ class plgContentMedia extends JPlugin {
     }
 
     /**
-     *
+     * Get a Media object from an URL 
      * @param string $media
      * @param JParams $params
      * @return MediaObject
@@ -191,10 +164,9 @@ class plgContentMedia extends JPlugin {
     public function getMediaObject($media, $params=array()) {
         //Preprocess the media data to make it standard for the functions...
         $this->params->merge($params);
-        $params = $this->params; //->toArray();
-        //var_dump($params);
+        $params = $this->params->toArray();
 
-        // Fix Media UrL
+        // Here we fix Media UrL
         $media = strpos($media, "http://") ?
                 $media : // Custom PATH
                 $params->get('default_path', 'images/') . $media; // Default PATH
@@ -203,7 +175,7 @@ class plgContentMedia extends JPlugin {
         $type = substr($media, strrpos($media, '.') + 1);
         if (ctype_alnum($type)) { // If the type is alphanumeric...
             // Aha...include the file based on the extension...
-            switch($type){
+            switch ($type) {
                 case 'jpg':
                 case 'jpeg':
                 case 'gif':
@@ -219,7 +191,7 @@ class plgContentMedia extends JPlugin {
             $pattern = '/(www\.)|(http\:\/\/)|(\/(.*))|(\W)/i';
             $type = preg_replace($pattern, '', $media);
         }
-        
+
         // Now I get the media object
         $file = dirname(__FILE__) . DS . 'types' . DS . $type . '.php';
 
