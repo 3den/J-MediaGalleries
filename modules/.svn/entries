@@ -1,137 +1,0 @@
-10
-
-dir
-21239
-http://joomlacode.org/svn/joomla/development/branches/mediagalleries/modules
-http://joomlacode.org/svn/joomla
-
-
-
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-mod_wrapper
-dir
-
-mod_related_items
-dir
-
-mod_articles_latest
-dir
-
-mod_random_image
-dir
-
-mod_syndicate
-dir
-
-mod_whosonline
-dir
-
-mod_banners
-dir
-
-mod_breadcrumbs
-dir
-
-mod_footer
-dir
-
-mod_stats
-dir
-
-mod_articles_news
-dir
-
-mod_feed
-dir
-
-mod_articles_category
-dir
-
-mod_menu
-dir
-
-mod_search
-dir
-
-mod_languages
-dir
-
-mod_articles_archive
-dir
-
-mod_mediagalleries
-dir
-
-mod_login
-dir
-
-mod_articles_popular
-dir
-
-mod_custom
-dir
-
-mod_articles_categories
-dir
-
-index.html
-file
-
-
-
-
-2011-03-18T19:59:32.000000Z
-b256d97fbb697428b7a1286ea33539c0
-2009-06-19T23:32:32.221138Z
-12153
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26
-
-mod_users_latest
-dir
-
-mod_weblinks
-dir
-
-mod_media
-dir
-

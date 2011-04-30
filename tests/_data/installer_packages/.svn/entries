@@ -1,116 +1,0 @@
-10
-
-dir
-21239
-http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/_data/installer_packages
-http://joomlacode.org/svn/joomla
-
-
-
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-files_test1
-dir
-
-com_alpha
-dir
-
-lng_xx-XX.admin
-dir
-
-mod_alpha
-dir
-
-pkg_everything
-dir
-
-tpl-test-3-folder
-dir
-
-com_delta
-dir
-
-tpl-test-1-filename
-dir
-
-plg_system_alpha
-dir
-
-tpl-test-5-media
-dir
-
-lng_xx-XX
-dir
-
-mod_adminalpha
-dir
-
-tpl-test-4-folder-file-omitted
-dir
-
-tpl_simple
-dir
-
-com_beta
-dir
-
-tpl-test-2-filename-file-omitted
-dir
-
-index.html
-file
-
-
-
-
-2011-01-20T16:08:43.000000Z
-58d5c6d200e4bdf990e04d7dbfc3cf57
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-29
-
-lib_alpha
-dir
-
-mod_alpha.admin
-dir
-

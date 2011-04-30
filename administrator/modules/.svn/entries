@@ -1,104 +1,0 @@
-10
-
-dir
-21239
-http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/modules
-http://joomlacode.org/svn/joomla
-
-
-
-2011-03-19T17:31:34.352764Z
-20994
-3dentech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-mod_title
-dir
-
-mod_popular
-dir
-
-mod_status
-dir
-
-mod_online
-dir
-
-mod_quickicon
-dir
-
-mod_latest
-dir
-
-mod_logged
-dir
-
-mod_toolbar
-dir
-
-mod_feed
-dir
-
-mod_menu
-dir
-
-mod_login
-dir
-
-mod_custom
-dir
-
-index.html
-file
-
-
-
-
-2011-03-18T19:59:20.000000Z
-b256d97fbb697428b7a1286ea33539c0
-2009-06-19T23:42:15.572692Z
-12165
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26
-
-mod_unread
-dir
-
-mod_submenu
-dir
-
