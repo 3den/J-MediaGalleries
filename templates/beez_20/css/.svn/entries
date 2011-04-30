@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/beez_20/css
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-template_rtl.css
-file
-
-
-
-
-2011-03-18T19:59:26.000000Z
-c404725c2171a00232d821932c33ddaa
-2010-04-26T01:46:24.406939Z
-16465
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-654
 
 print.css
 file
@@ -93,6 +59,40 @@ has-props
 
 
 5242
+
+template_rtl.css
+file
+
+
+
+
+2011-03-18T19:59:26.000000Z
+c404725c2171a00232d821932c33ddaa
+2010-04-26T01:46:24.406939Z
+16465
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+654
 
 nature.css
 file
@@ -196,40 +196,6 @@ has-props
 
 160
 
-position.css
-file
-
-
-
-
-2011-01-20T16:08:41.000000Z
-9dc5dd59f5ac56ac6312212fa6156004
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5834
-
 general_mozilla.css
 file
 
@@ -263,6 +229,40 @@ has-props
 
 
 173
+
+position.css
+file
+
+
+
+
+2011-01-20T16:08:41.000000Z
+9dc5dd59f5ac56ac6312212fa6156004
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5834
 
 template.css
 file
@@ -332,40 +332,6 @@ has-props
 
 17980
 
-layout.css
-file
-
-
-
-
-2011-03-18T19:59:26.000000Z
-b2969ac0ec01f93e4106de4a3f486b5f
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27720
-
 general.css
 file
 
@@ -399,6 +365,40 @@ has-props
 
 
 4203
+
+layout.css
+file
+
+
+
+
+2011-03-18T19:59:26.000000Z
+b2969ac0ec01f93e4106de4a3f486b5f
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27720
 
 general_konqueror.css
 file
@@ -434,40 +434,6 @@ has-props
 
 180
 
-personal.css
-file
-
-
-
-
-2011-03-18T19:59:26.000000Z
-b6ec01800ba3494b518848cf02e93db4
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20531
-
 index.html
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 44
+
+personal.css
+file
+
+
+
+
+2011-03-18T19:59:26.000000Z
+b6ec01800ba3494b518848cf02e93db4
+2010-10-02T18:53:34.303496Z
+19024
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20531
 
 ie7only.css
 file

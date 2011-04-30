@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/unit/suite/libraries/joomla
 http://joomlacode.org/svn/joomla
 
@@ -30,6 +30,12 @@ event
 dir
 
 mail
+dir
+
+session
+dir
+
+language
 dir
 
 JFrameworkConfigTest.php
@@ -66,10 +72,7 @@ has-props
 
 883
 
-language
-dir
-
-session
+filesystem
 dir
 
 JTextTest.php
@@ -106,7 +109,7 @@ has-props
 
 1728
 
-filesystem
+filter
 dir
 
 JVersionTest.php
@@ -143,13 +146,13 @@ has-props
 
 8331
 
-filter
-dir
-
 error
 dir
 
 installer
+dir
+
+plugin
 dir
 
 JRouteTest.php
@@ -185,9 +188,6 @@ has-props
 
 
 844
-
-plugin
-dir
 
 access
 dir

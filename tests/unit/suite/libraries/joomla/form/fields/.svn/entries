@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/form/fields
 http://joomlacode.org/svn/joomla
 
@@ -675,40 +675,6 @@ has-props
 
 1406
 
-JFormFieldCalendarTest.php
-file
-
-
-
-
-2011-03-18T19:59:30.000000Z
-c556bfcc9aab07c3ddd7be2a32ebea67
-2010-10-22T19:50:48.262253Z
-19205
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13173
-
 JFormFieldEditorsTest.php
 file
 
@@ -742,6 +708,40 @@ has-props
 
 
 1472
+
+JFormFieldCalendarTest.php
+file
+
+
+
+
+2011-03-18T19:59:30.000000Z
+c556bfcc9aab07c3ddd7be2a32ebea67
+2010-10-22T19:50:48.262253Z
+19205
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13173
 
 JFormFieldHelpsiteTest.php
 file
@@ -879,40 +879,6 @@ file
 
 29
 
-JFormFieldComponentLayoutsTest.php
-file
-
-
-
-
-2011-03-18T19:59:30.000000Z
-6c371c9c913c8b7025a8db2b4f571265
-2010-04-20T04:13:25.422237Z
-16235
-pasamio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1522
-
 JFormFieldLanguageTest.php
 file
 
@@ -947,14 +913,14 @@ has-props
 
 1478
 
-JFormFieldTextTest.php
+JFormFieldComponentLayoutsTest.php
 file
 
 
 
 
 2011-03-18T19:59:30.000000Z
-155ac890769454ced08ad7c1a99eae07
+6c371c9c913c8b7025a8db2b4f571265
 2010-04-20T04:13:25.422237Z
 16235
 pasamio
@@ -979,7 +945,7 @@ has-props
 
 
 
-1382
+1522
 
 JFormFieldCacheHandlersTest.php
 file
@@ -1014,6 +980,40 @@ has-props
 
 
 1504
+
+JFormFieldTextTest.php
+file
+
+
+
+
+2011-03-18T19:59:30.000000Z
+155ac890769454ced08ad7c1a99eae07
+2010-04-20T04:13:25.422237Z
+16235
+pasamio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1382
 
 JFormFieldCheckboxTest.php
 file

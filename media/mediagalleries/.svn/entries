@@ -1,15 +1,15 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/media/mediagalleries
 http://joomlacode.org/svn/joomla
 
 
 
-2010-10-02T18:53:34.303496Z
-19024
-3dentech
+2011-04-26T17:13:37.761681Z
+21202
+amangautam
 
 
 
@@ -80,5 +80,8 @@ has-props
 26
 
 js
+dir
+
+player
 dir
 

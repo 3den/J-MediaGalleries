@@ -1,0 +1,7 @@
+.svn
+.svn/*
+tmp/**/*
+cache/*
+.buildpath
+.project
+.DS_Store

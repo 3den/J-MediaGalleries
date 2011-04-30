@@ -1,25 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 109
-/svn/joomla/!svn/ver/18724/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl
-END
-edit.xml
-K 25
-svn:wc:ra_dav:version-url
-V 118
-/svn/joomla/!svn/ver/18532/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/edit.xml
-END
-edit.php
-K 25
-svn:wc:ra_dav:version-url
-V 118
-/svn/joomla/!svn/ver/18665/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/edit.php
-END
-modal.xml
-K 25
-svn:wc:ra_dav:version-url
-V 119
-/svn/joomla/!svn/ver/18724/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/modal.xml
+/svn/joomla/!svn/ver/21178/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl
 END
 modal.php
 K 25
@@ -33,9 +15,27 @@ svn:wc:ra_dav:version-url
 V 121
 /svn/joomla/!svn/ver/18491/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/default.xml
 END
+edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/18532/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/edit.xml
+END
 default.php
 K 25
 svn:wc:ra_dav:version-url
 V 121
-/svn/joomla/!svn/ver/18452/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/default.php
+/svn/joomla/!svn/ver/21178/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/default.php
+END
+edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/joomla/!svn/ver/18665/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/edit.php
+END
+modal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/joomla/!svn/ver/18724/development/branches/mediagalleries/components/com_mediagalleries/views/media/tmpl/modal.xml
 END

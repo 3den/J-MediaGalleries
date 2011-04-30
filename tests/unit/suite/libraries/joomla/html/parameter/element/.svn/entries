@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/tests/unit/suite/libraries/joomla/html/parameter/element
 http://joomlacode.org/svn/joomla
 
@@ -25,40 +25,6 @@ http://joomlacode.org/svn/joomla
 
 
 6f6e1ebd-4c2b-0410-823f-f34bde69bce9
-
-JElementLanguagesTest.php
-file
-
-
-
-
-2011-01-20T16:08:48.000000Z
-e37e2ad0cb677836a8a34ae31e7e2af7
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1027
 
 JElementModuleLayoutsTest.php
 file
@@ -94,6 +60,40 @@ has-props
 
 1028
 
+JElementLanguagesTest.php
+file
+
+
+
+
+2011-01-20T16:08:48.000000Z
+e37e2ad0cb677836a8a34ae31e7e2af7
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1027
+
 JElementFolderlistTest.php
 file
 
@@ -127,40 +127,6 @@ has-props
 
 
 1032
-
-JElementCalendarTest.php
-file
-
-
-
-
-2011-01-20T16:08:48.000000Z
-b986c0a22f345a9b2ab512a9dd07149d
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1917
 
 JElementEditorsTest.php
 file
@@ -196,14 +162,14 @@ has-props
 
 1021
 
-JElementFilelistTest.php
+JElementCalendarTest.php
 file
 
 
 
 
 2011-01-20T16:08:48.000000Z
-b85f3c7e0d7700b8c0542244da1b251b
+b986c0a22f345a9b2ab512a9dd07149d
 2010-07-13T11:21:43.542859Z
 18109
 3dentech
@@ -228,7 +194,7 @@ has-props
 
 
 
-1022
+1917
 
 JElementListTest.php
 file
@@ -264,14 +230,14 @@ has-props
 
 1002
 
-JElementTimezonesTest.php
+JElementFilelistTest.php
 file
 
 
 
 
 2011-01-20T16:08:48.000000Z
-7986a50275d1e592d03352917381a21f
+b85f3c7e0d7700b8c0542244da1b251b
 2010-07-13T11:21:43.542859Z
 18109
 3dentech
@@ -296,16 +262,16 @@ has-props
 
 
 
-1027
+1022
 
-JElementTextareaTest.php
+JElementCategoryTest.php
 file
 
 
 
 
 2011-01-20T16:08:48.000000Z
-1c9122ed82640cf8cc13b961a6d822e8
+55a5287985eb998af78741df1241fcbf
 2010-07-13T11:21:43.542859Z
 18109
 3dentech
@@ -366,14 +332,14 @@ has-props
 
 1245
 
-JElementCategoryTest.php
+JElementTextareaTest.php
 file
 
 
 
 
 2011-01-20T16:08:48.000000Z
-55a5287985eb998af78741df1241fcbf
+1c9122ed82640cf8cc13b961a6d822e8
 2010-07-13T11:21:43.542859Z
 18109
 3dentech
@@ -399,6 +365,40 @@ has-props
 
 
 1022
+
+JElementTimezonesTest.php
+file
+
+
+
+
+2011-01-20T16:08:48.000000Z
+7986a50275d1e592d03352917381a21f
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1027
 
 JElementImageListTest.php
 file
@@ -434,40 +434,6 @@ has-props
 
 1027
 
-JElementComponentLayoutsTest.php
-file
-
-
-
-
-2011-01-20T16:08:48.000000Z
-9ee4d10db71a69b9a12be4ecd5b2eb5c
-2010-07-13T11:21:43.542859Z
-18109
-3dentech
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1120
-
 JElementMenuItemTest.php
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 1022
+
+JElementComponentLayoutsTest.php
+file
+
+
+
+
+2011-01-20T16:08:48.000000Z
+9ee4d10db71a69b9a12be4ecd5b2eb5c
+2010-07-13T11:21:43.542859Z
+18109
+3dentech
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1120
 
 JElementTextTest.php
 file

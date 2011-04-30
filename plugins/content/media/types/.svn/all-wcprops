@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 90
-/svn/joomla/!svn/ver/21162/development/branches/mediagalleries/plugins/content/media/types
+/svn/joomla/!svn/ver/21204/development/branches/mediagalleries/plugins/content/media/types
 END
 divx.php
 K 25
@@ -13,13 +13,13 @@ youtubecom.php
 K 25
 svn:wc:ra_dav:version-url
 V 105
-/svn/joomla/!svn/ver/21188/development/branches/mediagalleries/plugins/content/media/types/youtubecom.php
+/svn/joomla/!svn/ver/21240/development/branches/mediagalleries/plugins/content/media/types/youtubecom.php
 END
 mp3.php
 K 25
 svn:wc:ra_dav:version-url
 V 98
-/svn/joomla/!svn/ver/20999/development/branches/mediagalleries/plugins/content/media/types/mp3.php
+/svn/joomla/!svn/ver/21203/development/branches/mediagalleries/plugins/content/media/types/mp3.php
 END
 mp4.php
 K 25
@@ -37,7 +37,7 @@ mediatype.php
 K 25
 svn:wc:ra_dav:version-url
 V 104
-/svn/joomla/!svn/ver/21188/development/branches/mediagalleries/plugins/content/media/types/mediatype.php
+/svn/joomla/!svn/ver/21240/development/branches/mediagalleries/plugins/content/media/types/mediatype.php
 END
 image.php
 K 25

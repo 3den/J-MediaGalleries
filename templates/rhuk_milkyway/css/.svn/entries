@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/templates/rhuk_milkyway/css
 http://joomlacode.org/svn/joomla
 
@@ -94,40 +94,6 @@ has-props
 
 2419
 
-blue_bg.css
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-e413309890fd4b5bf493de007312d885
-2010-01-18T14:20:28.093137Z
-14276
-louis
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-967
-
 ieonly.css
 file
 
@@ -161,6 +127,40 @@ has-props
 
 
 549
+
+blue_bg.css
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+e413309890fd4b5bf493de007312d885
+2010-01-18T14:20:28.093137Z
+14276
+louis
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+967
 
 green.css
 file
@@ -264,40 +264,6 @@ has-props
 
 954
 
-orange.css
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-571885ab8988efd5a64be8c6f7bd3c4b
-2010-01-18T14:20:28.093137Z
-14276
-louis
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-975
-
 template.css
 file
 
@@ -331,6 +297,40 @@ has-props
 
 
 16884
+
+orange.css
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+571885ab8988efd5a64be8c6f7bd3c4b
+2010-01-18T14:20:28.093137Z
+14276
+louis
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+975
 
 black.css
 file
@@ -434,40 +434,6 @@ has-props
 
 957
 
-index.html
-file
-
-
-
-
-2010-10-27T12:46:28.000000Z
-b256d97fbb697428b7a1286ea33539c0
-2009-06-19T23:29:38.429762Z
-12151
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26
-
 orange_bg.css
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 987
+
+index.html
+file
+
+
+
+
+2010-10-27T12:46:28.000000Z
+b256d97fbb697428b7a1286ea33539c0
+2009-06-19T23:29:38.429762Z
+12151
+eddieajau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26
 
 black_bg.css
 file

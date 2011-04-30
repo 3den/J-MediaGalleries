@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/modules
 http://joomlacode.org/svn/joomla
 
@@ -32,10 +32,10 @@ dir
 mod_related_items
 dir
 
-mod_random_image
+mod_articles_latest
 dir
 
-mod_articles_latest
+mod_random_image
 dir
 
 mod_syndicate
@@ -50,19 +50,19 @@ dir
 mod_breadcrumbs
 dir
 
-mod_stats
+mod_footer
 dir
 
-mod_footer
+mod_stats
 dir
 
 mod_articles_news
 dir
 
-mod_articles_category
+mod_feed
 dir
 
-mod_feed
+mod_articles_category
 dir
 
 mod_menu

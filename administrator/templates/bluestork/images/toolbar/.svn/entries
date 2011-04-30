@@ -1,7 +1,7 @@
 10
 
 dir
-21163
+21239
 http://joomlacode.org/svn/joomla/development/branches/mediagalleries/administrator/templates/bluestork/images/toolbar
 http://joomlacode.org/svn/joomla
 
@@ -94,40 +94,6 @@ has-props
 
 822
 
-icon-32-send.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-717f88bd9f18394ee1d013ef48eb3461
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2472
-
 icon-32-error.png
 file
 
@@ -161,6 +127,40 @@ has-props
 
 
 1427
+
+icon-32-send.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+717f88bd9f18394ee1d013ef48eb3461
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2472
 
 icon-32-banner-tracks.png
 file
@@ -434,14 +434,14 @@ has-props
 
 3123
 
-icon-32-preview.png
+icon-32-archive.png
 file
 
 
 
 
-2011-01-20T16:08:12.000000Z
-99621aa2325bba194837d8dff06da650
+2011-01-20T16:08:11.000000Z
+13e64d568b0d3e792dbc5bfd5e9a52f5
 2010-05-10T06:26:51.405104Z
 16933
 severdia
@@ -466,7 +466,7 @@ has-props
 
 
 
-1180
+1320
 
 icon-32-notice.png
 file
@@ -502,14 +502,14 @@ has-props
 
 2287
 
-icon-32-archive.png
+icon-32-preview.png
 file
 
 
 
 
-2011-01-20T16:08:11.000000Z
-13e64d568b0d3e792dbc5bfd5e9a52f5
+2011-01-20T16:08:12.000000Z
+99621aa2325bba194837d8dff06da650
 2010-05-10T06:26:51.405104Z
 16933
 severdia
@@ -534,7 +534,7 @@ has-props
 
 
 
-1320
+1180
 
 icon-32-purge.png
 file
@@ -1046,40 +1046,6 @@ has-props
 
 1769
 
-icon-32-user-add.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-c6eee19592212477e294e90904d2b4c0
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1644
-
 icon-32-forward.png
 file
 
@@ -1114,16 +1080,16 @@ has-props
 
 2492
 
-icon-32-save-copy.png
+icon-32-user-add.png
 file
 
 
 
 
 2011-01-20T16:08:12.000000Z
-b9ddcb0647f955d2ca575b68eebea1b1
-2009-10-24T02:52:49.041476Z
-13307
+c6eee19592212477e294e90904d2b4c0
+2010-05-10T06:26:51.405104Z
+16933
 severdia
 has-props
 
@@ -1146,7 +1112,7 @@ has-props
 
 
 
-1736
+1644
 
 icon-32-new-privatemessage.png
 file
@@ -1182,16 +1148,16 @@ has-props
 
 2456
 
-icon-32-calendar.png
+icon-32-save-copy.png
 file
 
 
 
 
-2011-01-20T16:08:11.000000Z
-298883b5574c1d208e2fbd95e586e9d9
-2010-05-10T06:26:51.405104Z
-16933
+2011-01-20T16:08:12.000000Z
+b9ddcb0647f955d2ca575b68eebea1b1
+2009-10-24T02:52:49.041476Z
+13307
 severdia
 has-props
 
@@ -1214,7 +1180,7 @@ has-props
 
 
 
-2154
+1736
 
 icon-32-article-add.png
 file
@@ -1250,16 +1216,16 @@ has-props
 
 2300
 
-icon-32-trash.png
+icon-32-calendar.png
 file
 
 
 
 
-2011-01-20T16:08:12.000000Z
-f5b9997222d105dc7d445c64fecffb75
-2010-05-16T00:03:00.740176Z
-17085
+2011-01-20T16:08:11.000000Z
+298883b5574c1d208e2fbd95e586e9d9
+2010-05-10T06:26:51.405104Z
+16933
 severdia
 has-props
 
@@ -1282,7 +1248,7 @@ has-props
 
 
 
-2353
+2154
 
 icon-32-banner-client.png
 file
@@ -1318,6 +1284,40 @@ has-props
 
 2684
 
+icon-32-trash.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+f5b9997222d105dc7d445c64fecffb75
+2010-05-16T00:03:00.740176Z
+17085
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2353
+
 icon-32-article.png
 file
 
@@ -1351,40 +1351,6 @@ has-props
 
 
 1829
-
-icon-32-unarchive.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-7958fc80c668282a5a5b49f6f7b875bd
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2600
 
 icon-32-upload.png
 file
@@ -1420,14 +1386,14 @@ has-props
 
 2094
 
-icon-32-read-privatemessage.png
+icon-32-unarchive.png
 file
 
 
 
 
 2011-01-20T16:08:12.000000Z
-ef8e6b5cf555082fd270a51e4134c86d
+7958fc80c668282a5a5b49f6f7b875bd
 2010-05-10T06:26:51.405104Z
 16933
 severdia
@@ -1452,7 +1418,7 @@ has-props
 
 
 
-3267
+2600
 
 icon-32-banner-categories.png
 file
@@ -1488,6 +1454,40 @@ has-props
 
 2272
 
+icon-32-read-privatemessage.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+ef8e6b5cf555082fd270a51e4134c86d
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3267
+
 icon-32-unblock.png
 file
 
@@ -1521,40 +1521,6 @@ has-props
 
 
 2463
-
-icon-32-menu.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-415a5610e9068ed1befa47a65c52080d
-2009-07-04T00:45:00.735576Z
-12418
-eddieajau
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1383
 
 icon-32-checkin.png
 file
@@ -1590,17 +1556,17 @@ has-props
 
 1457
 
-icon-32-search.png
+icon-32-menu.png
 file
 
 
 
 
 2011-01-20T16:08:12.000000Z
-78db18d81d78044bff4f478f51387f88
-2010-05-10T06:26:51.405104Z
-16933
-severdia
+415a5610e9068ed1befa47a65c52080d
+2009-07-04T00:45:00.735576Z
+12418
+eddieajau
 has-props
 
 
@@ -1622,7 +1588,7 @@ has-props
 
 
 
-2352
+1383
 
 icon-32-banner.png
 file
@@ -1658,6 +1624,40 @@ has-props
 
 2750
 
+icon-32-search.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+78db18d81d78044bff4f478f51387f88
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2352
+
 icon-32-move.png
 file
 
@@ -1692,40 +1692,6 @@ has-props
 
 1055
 
-icon-32-revert.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-6629982eb5b13529e16359f161b5942d
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1516
-
 icon-32-alert.png
 file
 
@@ -1759,6 +1725,40 @@ has-props
 
 
 2542
+
+icon-32-revert.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+6629982eb5b13529e16359f161b5942d
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1516
 
 icon-32-copy.png
 file
@@ -1896,40 +1896,6 @@ has-props
 
 1395
 
-icon-32-apply.png
-file
-
-
-
-
-2011-01-20T16:08:11.000000Z
-9050aef015cdaf4cd95d0dd637c3fef0
-2010-05-10T06:26:51.405104Z
-16933
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1457
-
 icon-32-edit.png
 file
 
@@ -1963,6 +1929,40 @@ has-props
 
 
 2563
+
+icon-32-apply.png
+file
+
+
+
+
+2011-01-20T16:08:11.000000Z
+9050aef015cdaf4cd95d0dd637c3fef0
+2010-05-10T06:26:51.405104Z
+16933
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1457
 
 icon-32-new-style.png
 file
@@ -2100,40 +2100,6 @@ has-props
 
 2702
 
-icon-32-delete.png
-file
-
-
-
-
-2011-01-20T16:08:12.000000Z
-85bc8e169439b57f629407d6f60e1a20
-2010-05-16T00:03:00.740176Z
-17085
-severdia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2190
-
 icon-32-edit
 file
 
@@ -2167,6 +2133,40 @@ has-props
 
 
 2288
+
+icon-32-delete.png
+file
+
+
+
+
+2011-01-20T16:08:12.000000Z
+85bc8e169439b57f629407d6f60e1a20
+2010-05-16T00:03:00.740176Z
+17085
+severdia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2190
 
 icon-32-config.png
 file
